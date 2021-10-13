@@ -152,7 +152,7 @@ header {
 
 .font_0 {
     text-align: center;
-    margin-top: 16%;
+    margin-top: 13%;
     z-index: 20;
 }
 
@@ -167,7 +167,7 @@ header {
 
 .font_0,
 .font_4 {
-    font-weight: bold;
+    font-weight: boldER;
 }
 
 .box {
