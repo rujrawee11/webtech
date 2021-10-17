@@ -9,11 +9,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/lib/w3.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+<style>
+    .card {
+    border-radius: 20px;
+}
 
+.card-columns {
+    column-count: 4;
+}
+
+#line {
+    width: 5vw;
+    height: 1vh;
+    background-color: rgb(0, 89, 255);
+}
+#orange {
+    color: rgb(255, 78, 34);
+}
+
+.freecer {background-color: rgb(255, 78, 34);
+color: white;}
+
+</style>
 </head>
 
 <body>
@@ -39,16 +60,18 @@
         </div>
 
     </nav>
-    <section id="page1">
+    <div id="page1" class="container col-12">
         <div class="container text-center">
             <h1>กิจกรรม<b>อาสาสมัคร</b></h1>
-            <hr>
-            <h4>ที่ไหน เมื่อไหร่ ก็เป็นจิตอาสาได้</h4>
-            <div class="row justify-content-md-center">
-                <div class="card-deck">
-                    <div class="card m-1" style="width: 18rem;">
+            <div class="d-flex justify-content-center align-items-center" style="height: 5vh;">
+                <div id="line"></div>
+            </div>
+            <h4 class="mt-3">ที่ไหน เมื่อไหร่ ก็เป็นจิตอาสาได้</h4>
+            <div class="row d-flex justify-content-md-center">
+                <div class="card-deck" >
+                    <div class="card m-1" style="width: 40%; height: 150%;">
                         <div class="card-body text-left">
-                            <div class="h-90">
+                            <div class="h-75">
                                 <h5 class="card-title text-primary"><b>กิจกรรม</b></h5>
                                 <h3 class="card-title text-primary"><b>อาสาสมัครออนไลน์</b></h3>
                                 <p class="card-text text-secondary">เข้าร่วมได้ทุกที่ ทุกเวลา พร้อมรับเกียรติบัตร</p>
@@ -63,9 +86,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card m-1" style="width: 18rem;">
+                    <div class="card m-1" style="width: 40%; height: 150%;">
                         <div class="card-body text-left">
-                            <div class="h-90">
+                            <div class="h-75">
                                 <h5 class="card-title text-primary"><b>กิจกรรม</b></h5>
                                 <h3 class="card-title text-primary"><b>งานอาสาทั่วไทย</b></h3>
                                 <p class="card-text text-secondary">ค้นหางานอาสาต่าง ๆ ทั่วประเทศไทย</p>
@@ -82,8 +105,342 @@
                     </div>
                 </div>
             </div>
+
+            <div class="d-flex align-items-center" style="height: 30vh;">
+                
+            </div>
         </div>
-    </section>
+
+        <div class="container text-center">
+            <h1 class="text-primary">จิตอาสา<b>ออนไลน์</b></h1>
+            <div class="d-flex justify-content-center align-items-center" style="height: 5vh;">
+                <div id="line"></div>
+            </div>
+            <div class="col-11 text-left">
+                <div class="card mt-3" style="height: 27vh;">
+                    <div class="row col-12">
+                        <div class="col-4 h-80"
+                            style="background-image: url(https://static.wixstatic.com/media/58d396_40d755551be4487fbd310a8e725fb00a~mv2.jpg/v1/fill/w_311,h_198,al_c,q_80,usm_0.66_1.00_0.01/58d396_40d755551be4487fbd310a8e725fb00a~mv2.webp); background-repeat: no-repeat; background-size: 100%; height: 100%;">
+                        </div>
+                        <div class="card-body h-10">
+                            <h3 class="card-title"><b>ปลูกต้นไม้ออนไลน์ (สนับสนุนค่าโครงการ)</b></h3>
+                            <br>
+                            <p class="card-text">ปลูกป่าออนไลน์ได้ง่าย ๆ ทางมือถือ หรือคอมพ์ สามารถขอใบรับรอง
+                                และชั่วโมงอาสาได้</p>
+                            <br>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <h4 class="freecer">เกียรติบัตรฟรี</h4>
+                                </div>
+                                <div>
+                                <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                        viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card mt-3" style="height: 27vh;">
+                    <div class="row col-12">
+                        <div class="col-4 h-80"
+                            style="background-image: url(https://static.wixstatic.com/media/11062b_120db528c47648a290e84981b4c58c14~mv2.jpg/v1/fill/w_295,h_188,al_c,q_80,usm_0.66_1.00_0.01/11062b_120db528c47648a290e84981b4c58c14~mv2.webp); background-repeat: no-repeat; background-size: 100%; height: 100%;">
+                        </div>
+                        <div class="card-body h-10">
+                            <h3 class="card-title"><b>
+                                    จัดทำ/พิมพ์เล่มสมุดภาพระบายสี</b></h3>
+                            <br>
+                            <p class="card-text">จัดทำสมุดภาพระบายสี เพื่อส่งมอบให้กับสถานสงเคราะห์เด็กเล็ก</p>
+                            <br>
+                            <div class="text-right">
+                                <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                        viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-3" style="height: 27vh;">
+                    <div class="row col-12">
+                        <div class="col-4 h-80"
+                            style="background-image: url(https://static.wixstatic.com/media/b17692ae3223436b881620356acb41ed.jpg/v1/fill/w_295,h_188,al_c,q_80,usm_0.66_1.00_0.01/b17692ae3223436b881620356acb41ed.webp); background-repeat: no-repeat; background-size: 100%; height: 100%;">
+                        </div>
+                        <div class="card-body h-10">
+                            <h3 class="card-title"><b>วาดภาพการ์ตูนสำหรับทำสมุดภาพระบายสี</b></h3>
+                            <br>
+                            <p class="card-text">วาดภาพการ์ตูนสำหรับทำสมุดภาพระบายสีเพื่อเด็กด้อยโอกาส ตามสถานศึกษา ฯลฯ
+                            </p>
+                            <br>
+                            <div class="text-right">
+                                <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                        viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center" style="height: 15vh;">
+                    <a href="#" class="text-secondary">ดูเพิ่มเติม <svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg></a>
+                </div>
+
+            </div>
+
+
+        </div>
+        <hr>
+
+        <div class="container">
+            <div class="text-center">
+                <h1 class="text-primary"><b>ผลงาน</b>ถูกส่งไปที่ไหน</h1>
+                <p id="orange">‼️ เนื่องจากสถานการณ์โควิด-19 ส่งผลให้บางกิจกรรม ได้เปลี่ยนแปลงวิธีการดำเนินการ และกำหนดการ</p>
+                <div class="d-flex justify-content-center align-items-center" style="height: 5vh;">
+                    <div id="line"></div>
+                </div>
+            </div>
+            <div id="processing" class="text-left"></div>
+            <p id="orange">กำลังดำเนินการ</p>
+            <div class="container">
+                <div class="card" style="height: 20vh;">
+                    <div class="row col-12">
+                        <div class="card-body h-12">
+                            <h4 class="card-title text-primary"><b>
+                                    ส่งมอบผลงาน กิจกรรมบริจาคหนังสือ และสื่อการเรียนรู้สำหรับเด็กอื่น ๆ</b></h4>
+                            <p class="card-text text-secondary">ผลงานกิจกรรมบริจาคหนังสือ การ์ดเกมเพื่อการศึกษา
+                                สมุดทำมือเพื่อน้อง - กันยายน</p>
+                            <div class="text-right">
+                                <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                        viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-3" style="height: 20vh;">
+                    <div class="row col-12">
+                        <div class="card-body h-12">
+                            <h4 class="card-title text-primary"><b>
+                                    ส่งมอบผลงาน กิจกรรมบริจาคหนังสือ และสื่อการเรียนรู้สำหรับเด็กอื่น ๆ
+                                    และสมุดภาพระบายสี</b></h4>
+                            <p class="card-text text-secondary">ผลงานกิจกรรมบริจาคหนังสือ และสมุดภาพระบายสี - กันยายน
+                            </p>
+                            <div class="text-right">
+                                <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                        viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-3" style="height: 20vh;">
+                    <div class="row col-12">
+                        <div class="card-body h-12">
+                            <h4 class="card-title text-primary"><b>
+                                    ส่งมอบผลงาน กิจกรรมออกแบบเทมเพลตพอร์ตฟอลิโอ</b></h4>
+                            <p class="card-text text-secondary">กิจกรรมออกแบบเทมเพลตพอร์ตฟอลิโอ
+                                อยู่ระหว่างการปรับปรุงผลงาน และพัฒนาเว็บไซต์เพื่อใช้แจกผลงานในปี 2565</p>
+                            <div class="text-right">
+                                <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                        viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-center" style="height: 15vh;">
+                    <a href="#" class="text-secondary">ดูเพิ่มเติม <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg></a>
+                </div>
+            </div>
+
+            <p id="orange">ส่งแล้ว</p>
+            <div class="card-columns">
+                <div class="card">
+                    <img class="card-img-top" src="https://static.wixstatic.com/media/58d396_3561b1d14b194b64b1caa444cd7cafc4~mv2.jpeg/v1/fill/w_274,h_172,al_c,q_80,usm_0.66_1.00_0.01/58d396_3561b1d14b194b64b1caa444cd7cafc4~mv2.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            ส่งมอบผลงาน หน้ากากผ้า/หน้ากากอนามัย</h5>
+                        <br>
+                        <p class="card-text">ผลงานกิจกรรมหน้ากากผ้า/หน้ากากอนามัย ส่งมอบแล้ว 100 ชุด ให้กับ โรงพยาบาลหนองคาย</p>
+                        <div class="text-center">
+                            <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img class="card-img-top" src="https://static.wixstatic.com/media/58d396_8e5411cd6770420e8dfc6b2a8c2269a9~mv2.jpeg/v1/fill/w_274,h_172,al_c,q_80,usm_0.66_1.00_0.01/58d396_8e5411cd6770420e8dfc6b2a8c2269a9~mv2.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            ส่งมอบผลงาน กิจกรรมบริจาคหนังสือ และสื่อการเรียนรู้สำหรับเด็ก</h5>
+                        <br>
+                        <p class="card-text">โรงเรียนอุดรธรรมานุสรณ์ สิงหาคม 2564 (อยู่ระหว่างการอัพเดตข้อมูล)</p>
+                        <div class="text-center">
+                            <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="https://static.wixstatic.com/media/58d396_9b6a8019e2954a979eb0637790d0f60e~mv2.jpg/v1/fill/w_274,h_172,al_c,q_80,usm_0.66_1.00_0.01/58d396_9b6a8019e2954a979eb0637790d0f60e~mv2.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            ส่งมอบผลงาน ให้กำลังใจบุคลากรทางการแพทย์</h5>
+                        <br>
+                        <p class="card-text">ผลงานกิจกรรม ให้กำลังใจบุคลากรทางการแพทย์ ให้กับ โรงพยาบาลหนองคาย</p>
+                        <div class="text-center">
+                            <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="https://static.wixstatic.com/media/58d396_bbbe91f8943044588517b6d794c745c4~mv2.jpg/v1/fill/w_274,h_172,al_c,q_80,usm_0.66_1.00_0.01/58d396_bbbe91f8943044588517b6d794c745c4~mv2.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            ส่งมอบผลงาน กิจกรรมบริจาคหนังสือ</h5>
+                        <br>
+                        <p class="card-text">โรงเรียนเทศบาล 6 อุดรธานี ปี 2564 (อยู่ระหว่างการอัพเดตข้อมูล)</p>
+                        <div class="text-center">
+                            <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="https://static.wixstatic.com/media/58d396_18f3d5f8802a49659d4aa840d34e5dfe~mv2.png/v1/fill/w_274,h_172,al_c,q_85,usm_0.66_1.00_0.01/58d396_18f3d5f8802a49659d4aa840d34e5dfe~mv2.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            ส่งมอบผลงาน กิจกรรมวาดภาพการ์ตูนสำหรับทำสมุดภาพระบายสี</h5>
+                        <br>
+                        <p class="card-text">กิจกรรมวาดภาพการ์ตูนสำหรับทำสมุดภาพระบายสี ถูกรวบรวมผลงานรอบที่ 1 เพื่อใช้ในกิจกรรม จัดทำสมุดภาพระบายสีแล้ว - สิงหาคม</p>
+                        <div class="text-center">
+                            <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="https://static.wixstatic.com/media/58d396_169e9e1a42f244beb34bdc31cd50efd2~mv2.jpeg/v1/fill/w_274,h_172,al_c,q_80,usm_0.66_1.00_0.01/58d396_169e9e1a42f244beb34bdc31cd50efd2~mv2.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            ส่งมอบผลงาน พิมพ์หนังสือให้คนตาบอด (ทางออนไลน์)</h5>
+                        <br>
+                        <p class="card-text">ผลงานกิจกรรมพิมพ์หนังสือให้คนตาบอด ส่งมอบให้กับ โรงเรียนสอนคนตาบอดพระมหาไถ่ ชลบุรี แล้ว - สิงหาคม</p>
+                        <div class="text-center">
+                            <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="https://static.wixstatic.com/media/58d396_51f54847297647c599cef9430be80506~mv2.png/v1/fill/w_274,h_172,al_c,q_85,usm_0.66_1.00_0.01/58d396_51f54847297647c599cef9430be80506~mv2.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            อัพโหลดผลงาน คลิป Tik Tok เพื่อการศึกษา</h5>
+                        <br>
+                        <p class="card-text">อัพโหลดผลงาน คลิป Tik Tok เพื่อการศึกษา ทุกสัปดาห์ ทางแอคเคาท์ uncommonvolunteer</p>
+                        <div class="text-center">
+                            <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="https://static.wixstatic.com/media/58d396_1534b95fbb2a4141a9de3eca4f41d2eb~mv2.jpg/v1/fill/w_274,h_172,al_c,q_80,usm_0.66_1.00_0.01/58d396_1534b95fbb2a4141a9de3eca4f41d2eb~mv2.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            ส่งมอบผลงาน กิจกรรมบริจาคหนังสือ</h5>
+                        <br>
+                        <p class="card-text">โรงเรียนเทศบาล 2 มุขมนตรี ปี 2564 (อยู่ระหว่างการอัพเดตข้อมูล)</p>
+                        <div class="text-center">
+                            <a href="#" class="text-secondary">รายละเอียด <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="14" fill="currentColor" class="bi bi-arrow-right"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center" style="height: 15vh;">
+                <a href="#" class="text-secondary">ดูเพิ่มเติม <svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg></a>
+            </div>
+        </div>
+        
+    </div>
+    </div>
     <footer>
         <div id="footer1">
             <div id="txt_footer">เสนอแนะ/สอบถาม</div>
