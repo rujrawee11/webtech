@@ -588,6 +588,7 @@ li {
 .box7_sup {
     background-color: #00cfcf;
     padding: 20px;
+    padding-left: 5px;
     padding-bottom: 25px;
     width: 18vw;
     height: 1.5vh;
@@ -608,4 +609,42 @@ li {
     text-align: right;
     margin-top: -100%;
     margin-right: -15vw;
+}
+/* ล่าง */
+.bg_box {
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    padding:20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -10%;
+    box-shadow: 0 0 10px rgba(122, 122, 122, 0.384);
+    z-index: 100;
+}
+#img1_head {
+    transform: scale(0.5);
+}
+#text1 {
+    text-align: center;
+}
+#text2 {
+    margin-top: 6%;
+    font-size: 22px;
+    font-weight:900;
+    font-weight:border;
+    text-align: center;
+}
+#img2_head {
+    transform: scale(0.5);
+}
+#img3_head {
+    transform: scale(0.5);
+}
+#img4_head {
+    transform: scale(0.5);
 }
