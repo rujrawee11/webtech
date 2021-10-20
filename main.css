@@ -272,3 +272,81 @@ li {
     color: #233a88;
     width: 59vw;
 }
+/* header */
+#h1_n{
+    font-size:60px;
+    font-weight:900;
+    line-height:1.1;
+    color: #fff;
+    margin: 90px 0 20px 10px;
+}
+#h2{
+    font-size:70px;
+    font-weight:900;
+    color: #000;
+    margin:0 0 10px 0;
+}
+#h3{
+    font-size:24px;
+    font-weight:300;
+    color: #000;
+    margin:0 0 60px 0;
+}
+#h4_n{
+    font-size:20px;
+    font-weight:900;
+    color: #fff;
+    display:inline;
+    margin:0;
+}
+#h4_n2{
+    font-size:20px;
+    font-weight:400;
+    color: #fff;
+    display:inline;
+    margin:0;
+}
+#p{
+    font-size:18px;
+    font-weight:300;
+    line-height:1.95;
+    color: rgb(41, 39, 39);
+    margin:0 0 30px 0;
+}
+.bg_img {
+    
+    justify-content: center;
+    align-items: center;
+    height: 63vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.bg0 {
+    background: -webkit-linear-gradient(rgba(49, 83, 199, 0.8), rgba(49, 83, 199, 60)), url("https://static.wixstatic.com/media/547500af64d34b988bac05991a5fce61.jpg/v1/fill/w_1172,h_902,al_c,q_85,usm_0.66_1.00_0.01/547500af64d34b988bac05991a5fce61.webp");
+    background: linear-gradient(rgba(49, 83, 199, 0.8), rgba(49, 83, 199, 60)), url("https://static.wixstatic.com/media/547500af64d34b988bac05991a5fce61.jpg/v1/fill/w_1172,h_902,al_c,q_85,usm_0.66_1.00_0.01/547500af64d34b988bac05991a5fce61.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-color: rgba(0, 0, 255, 7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 25;
+}
+
+.donate_content{
+    margin-top: -5%;
+    text-align: center;
+    position: relative;
+    z-index: 50;
+}
+#copy {
+    text-align: center;
+    padding: 60px 25px 55px 25px;
+    width: 675px;
+    margin: 0 auto;
+}
