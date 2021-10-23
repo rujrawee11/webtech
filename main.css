@@ -150,6 +150,29 @@ nav {
     margin-left: 60%;
     border-radius: 10px;
 }
+#chatbar {
+    transition: opacity 0.5s ease-in-out;
+}
+.chat{
+    padding: 15px;
+    background-color:#0d277c;
+    box-shadow: 0 0 10px rgba(165, 165, 165, 0.322);
+    border-radius: 15px;
+    bottom:-2%;
+    right:3%;
+    position:fixed;
+    width:12%;
+    transition: opacity 0.5s ease-in-out;
+}
+#txt_chat{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.4em;
+    color:white;
+    position: absolute;
+    margin-top: 1%;
+
+}
 /* section */
 
 section {
