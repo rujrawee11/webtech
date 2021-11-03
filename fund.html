@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ทุนการศึกษา | UNCOMMON VOLUNTEER</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/lib/w3.css">
+    <link rel="stylesheet" type="text/css" href="fund.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    
+    <link href="//db.onlinewebfonts.com/c/33ca94f43a53fc634323a6fe191ffd64?family=TrendSansW00-Four" rel="stylesheet" type="text/css"/>
+    <style>
+        .card {
+            border-radius: 20px;
+        }
+
+        #cardtop {
+            border-radius: 20px;
+            position: relative;
+        }
+
+        .card-columns {
+            column-count: 4;
+        }
+
+        .text-primary {
+            color: rgb(49, 83, 199);
+        }
+
+        #line {
+            width: 5vw;
+            height: 1vh;
+            background-color: rgb(49, 83, 199);
+        }
+
+        #linediscover {
+            width: 17vw;
+            height: 1vh;
+            background-color: rgb(35,76,153);
+        }
+
+        #linewhite {
+            width: 5vw;
+            height: 1vh;
+            background-color: rgb(255, 255, 255);
+        }
+
+        #orange {
+            color: rgb(255, 78, 34);
+            font-size: 130%;
+        }
+
+        .freecer {
+            background-color: rgb(255, 78, 34);
+            color: white;
+            font-size: 100%;
+        }
+
+        #inform {
+            font-size: 1.2vw;
+        }
+
+        #inform:hover {
+            letter-spacing: 2px;
+            text-decoration: none;
+        }
+
+
+
+        #h1card {
+            font-size: 200%;
+            color: rgb(49, 83, 199);
+        }
+
+        #h1cardwhite {
+            font-size: 200%;
+            color: rgb(255, 255, 255);
+        }
+
+        #h2card {
+            font-size: 150%;
+            color: rgb(49, 83, 199);
+        }
+
+        #cardwhite:hover,
+        #cardwhite:focus,
+        #cardwhite:active {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+
+
+        #btncard1 {
+            width: 4vw;
+            height: 8vh;
+            border-radius: 10px;
+            background-color: #234C99;
+        }
+
+        #btncard1:hover {
+            width: 4vw;
+            height: 8vh;
+            border-radius: 10px;
+            background-color: #183a79;
+        }
+
+        #btncard1blue {
+            width: 4vw;
+            height: 8vh;
+            border-radius: 10px;
+            background-color: rgb(49, 83, 199);
+        }
+
+        #btncard1blue:hover {
+            width: 4vw;
+            height: 8vh;
+            border-radius: 10px;
+            background-color: rgb(28, 60, 167);
+
+        }
+
+        p {
+            font-size: 80%;
+        }
+
+        #cardtitle {
+            color: rgb(49, 83, 199);
+        }
+
+        #cardtitleblack {
+            color: black;
+        }
+
+        #blue {
+            color: rgb(49, 83, 199);
+        }
+
+        #white {
+            color: white;
+        }
+
+        #onlinevoltitle {
+            font-size: 50px;
+            font-weight: 900;
+            color: rgb(49, 83, 199);
+        }
+
+        #onlinevoltitlewhite {
+            font-size: 50px;
+            font-weight: 900;
+            color: white;
+        }
+
+        #cardtop {
+            height: 50vh;
+        }
+
+        #cardcontent {
+            margin: 10px;
+        }
+
+        #cardtomato {
+
+            background-color: tomato;
+            height: 35vh;
+        }
+
+        #cardtomato1 {
+
+            background-color: tomato;
+            height: 35vh;
+            width: 100%;
+        }
+
+        #cardtomato1:hover,
+        #cardtomato1:focus,
+        #cardtomato1:active {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        #cardgreen {
+
+            background-color: turquoise;
+            height: 35vh;
+        }
+
+        #cardgreen1 {
+
+            background-color: turquoise;
+            height: 35vh;
+        }
+
+        #cardgreen1:hover,
+        #cardgreen1:focus,
+        #cardgreen1:active {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        #cardcontent:hover {
+            margin: 0px;
+        }
+
+        #clickhere {
+            font-size: 150%;
+            color: white;
+        }
+
+        #onlinevol {
+            font-size: 600%;
+            color: white;
+            letter-spacing: 30px;
+        }
+
+        #sep:hover {
+            letter-spacing: 2px;
+        }
+
+        #creativetext {
+            font-family: 'Niconne', cursive;
+            color: white;
+            font-size: 500%;
+
+        }
+
+        #bytext {
+            font-family: 'Prompt', sans-serif;
+            color: white;
+            margin-left: 2%;
+        }
+
+        #more {
+            border-radius: 5px;
+            background-color: tomato;
+            color: white;
+            font-size: 1.2vw;
+        }
+
+        #more:hover {
+            letter-spacing: 2px;
+            text-decoration: none;
+            background-color: rgb(49, 83, 199);
+        }
+
+        #cardcolele:hover,
+        #cardcolele:focus,
+        #cardcolele:active {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        #cardcon:hover #cardbody #cardbodytext,
+        #cardcon:focus #cardbody #cardbodytext,
+        #cardcon:active #cardbody #cardbodytext {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        #cardcon:hover #img {
+    transform: translateX(-5%);/*100%*/
+}
+
+#cardcon:hover #cardbtn,
+        #cardcon:focus #cardbtn,
+        #cardcon:active #cardbtn {
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
+
+        #piccardcol:hover {
+            opacity: .6;
+            /*transform: translateX(10px);/*100%*/
+        }
+
+
+        .colorpic {
+            background-color: none;
+            border-radius: 10px;
+            width: 80%;
+            height: 80%;
+            margin-left: 0%;
+            margin-top: 4%;
+
+        }
+
+        .colorpic:hover {
+            background: #0000ff;
+            transform: translateX(10px);
+        }
+
+        #cardgrey {
+
+background-color: rgb(235,242,255);
+height: 35vh;
+width: 100%;
+}
+
+@import url(//db.onlinewebfonts.com/c/33ca94f43a53fc634323a6fe191ffd64?family=TrendSansW00-Four);
+
+        @font-face {font-family: "TrendSansW00-Four"; 
+        src: url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.eot"); 
+        src: url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.eot?#iefix") format("embedded-opentype"), 
+        url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.woff2") format("woff2"), 
+        url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.woff") format("woff"), 
+        url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.ttf") format("truetype"), 
+        url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.svg#TrendSansW00-Four") format("svg"); }
+        
+        #hard {
+            color: white;
+             font-size: 500%;
+    font-family: "TrendSansW00-Four";
+        }
+
+        #hard1 {
+            color: black;
+             font-size: 200%;
+    font-family: "TrendSansW00-Four";
+        }
+        
+    </style>
+
+
+</head>
+
+<body>
+
+    <section id="page4">
+        <nav class="nav navbar-fixed-top" id="topbar">
+            <div class="container-fluid">
+                <span class="navbar-header">
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <svg id="point" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-chevron-down" viewBox="-5 5 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                            <img id="thai"
+                                src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/round/THA.png">
+                        </button>
+                        <div class="dropdown-content">
+                            <img id="english"
+                                src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/round/USA.png">
+                        </div>
+                    </div>
+                </span>
+                <div class="navbar-header" id="pointer">
+                    <a href="https://www.uncommonunique.com/donate" class="navbar-brand nav_head" id="box_profile"
+                        style="color:white; font-size: medium; display: flex; justify-content: center;
+                    align-items: center;">Log in &nbsp;
+
+                        <svg id="profile" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand nav_head" id="nav_head" href="#">UNCOMMON <br>VOLUNTEER</a>
+                </div>
+                <ul class="nav nav_s" style=" float:right;margin-left: 0;">
+                    <li><a id="nav_li" href="#">หน้าหลัก</a></li>
+                    <li><a id="nav_li" href="#">งานอาสา</a></li>
+                    <li><a id="nav_li" href="#">บทความ</a></li>
+                    <li><a id="nav_li" href="#">ช่วยเหลือ</a></li>
+                    <li><a id="nav_li" href="#">บริจาค</a></li>
+                    <li><a id="nav_li" href="#">เกี่ยวกับ</a></li>
+                    <!-- <li><img src="ig.png" class="ig" onclick="ig()"></img> -->
+                    <li> <i class="glyphicon glyphicon-search"></i><input type="text" id="search"
+                            placeholder="&nbsp;&nbsp;Search.."></li>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+        <div class="bg_img">
+            <div class="bg0" id="ParallaxImage">
+                <video style="opacity: .3;" autoplay muted loop id="myVideo">
+                    <source src="https://video.wixstatic.com/video/11062b_e345dcd4a33f48ef901934544f0488c1/1080p/mp4/file.mp4" type="video/mp4">
+                  </video>
+            </div>
+
+            <div class="donate_content" id="ParallaxContent" style="margin-top: -20%;">
+                <h1 id="hard">UNCOMMON<br>
+                    LIGHTS FUTURE</h1>
+                <div class="d-flex justify-content-center align-items-center mb-3 row" style="height: 5vh;">
+                    <div id="linewhite"></div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center mb-3 mt-5 text-left">
+                    <h4 class="col-7" id="bytext">Uncommon Co-Op is an Expert Helps Your Business to Gain Strength on Online Marketing and Online Business Management. Your Business Can be Strongly Unique Within a Very Short Time After Letting Us Help You!</h4>
+                </div>
+                <div class="d-flex justify-content-center align-items-center mb-3 mt-5 text-left">
+                    <div class="col-7 justify-content-center align-items-center mb-3 mt-5 text-left">
+                        <div class="col-12 d-flex justify-content-center align-items-center">
+                            <button id="sep" class="btn w-100" style="border-radius: 10px; background-color: tomato; font-size: 100%; color: white;"><b>บริการทั้งหมด</b></btn>
+                        </div>
+                        <br>
+                        <div class="col-12 d-flex justify-content-center align-items-center">
+                            <button id="sep" class="btn w-100 col mr-2" style="border-radius: 10px; border-style: solid; border-color: white; background-color: rgba(255, 255, 255, 0); font-size: 100%; color: white;">โครงการเพื่อสังคม</btn>
+                            <button id="sep" class="btn w-100 col ml-2" style="border-radius: 10px; border-style: solid; border-color: white; background-color: rgba(255, 255, 255, 0); font-size: 100%; color: white;">เกี่ยวกับเรา</btn>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 5%;">
+                    <a href="#online" style="color: white;"><i class="bi bi-arrow-down-circle"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+                          </svg></a>
+                </div>
+
+            </div>
+        </div>
+        <div id="ParallaxContent" class="container col-12">
+            <div class="" style="background-color: rgb(126,148,188);">
+
+                <div class="text-center col-12" id="online"
+                    style="width: 100%; height: 150%; z-index: 100; margin-top: -8%;">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center">
+                            <div class="card col-7" id="cardgrey" style="padding: 3%;">
+                                <div class="container" >
+                                    <div class="row">
+                                      <div class="col text-left">
+                                        <p style="font-size: 140%;"><b>Let's Discover</b></p>
+                                        <div id="linediscover"></div>
+                                      </div>
+                                      
+                                      <div class="col text-right">
+                                        <br>
+                                        
+                                        <p id="hard1">UNCOMMON<br>
+                                        WORLD</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex justify-content-center text-left">
+                            <div class="card col-7 mt-3" style="height: 27vh;">
+                                <div class="row col-12 h-100" id="cardcon">
+                                    <div id="img" class="col-4 w-100 h-100" style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; background-image: url(https://static.wixstatic.com/media/b5067000e54443c5a60d0e93d73b7214.jpg/v1/fill/w_237,h_158,al_c,q_80,usm_0.66_1.00_0.01/Large%20Screen.webp); background-repeat: no-repeat; background-size: 120%; height: 100%; margin-left: -2%;">
+                                    </div>
+                                    <div class="card-body h-100 col-8 m-2" id="cardbody" >
+                                        <div class="h-90 m-2" id="cardbodytext">
+                                            <h2 class="card-title"><b>
+                                                MARKETING and CSR SERVICES</b></h2>
+    
+                                            <p class="card-text" style="font-size: 70%;">Advertisement, Online Maketing Plans, Social Impact Marketing, Marketing Consultant, etc.
+                                            </p>
+                                            <br>
+                                        </div>
+                                        <div id="cardbtn" class="d-flex justify-content-end h-10" style="position: absolute; left: 95%; top: 60%;">
+                                            <a href="#" class="btn btn-dark ml-auto p-2" id="btncard1"><br><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-center text-left">
+                            <div class="card col-7 mt-3" style="height: 27vh;">
+                                <div class="row col-12 h-100" id="cardcon">
+                                    <div id="img" class="col-4 w-100 h-100" style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; background-image: url(https://static.wixstatic.com/media/95a8d23fd351498dacce637ff0136bb8.jpg/v1/fill/w_237,h_158,al_c,q_80,usm_0.66_1.00_0.01/Work%20Desk.webp); background-repeat: no-repeat; background-size: 120%; height: 100%; margin-left: -2%;">
+                                    </div>
+                                    <div class="card-body h-100 col-8 m-2" id="cardbody">
+                                        <div class="h-90 m-2" id="cardbodytext">
+                                            <h2 class="card-title"><b>
+                                                CHANNELS and PLATFORMS</b></h2>
+    
+                                            <p class="card-text" style="font-size: 70%;">Discover or channels and platforms, learn more about what we do to make the creative world</p>
+                                            <br>
+                                        </div>
+                                        <div id="cardbtn" class="d-flex justify-content-end h-10" style="position: absolute; left: 95%; top: 60%;">
+                                            <a href="#" class="btn btn-dark ml-auto p-2" id="btncard1"><br><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-center text-left">
+                            <div class="card col-7 mt-3" style="height: 27vh;">
+                                <div class="row col-12 h-100" id="cardcon">
+                                    <div  id="img" class="col-4 w-100 h-100" style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; background-image: url(https://static.wixstatic.com/media/60cd173509f842b0a88695282993b801.jpg/v1/fill/w_237,h_158,al_c,q_80,usm_0.66_1.00_0.01/Zooming%20on%20Tablet.webp); background-repeat: no-repeat; background-size: 120%; height: 100%; margin-left: -2%;">
+                                    </div>
+                                    <div class="card-body h-100 col-8 m-2" id="cardbody">
+                                        <div class="h-90 m-2" id="cardbodytext">
+                                            <h2 class="card-title"><b>CREATIVE CONTENTS</b></h2>
+    
+                                            <p class="card-text" style="font-size: 70%;">Learn and discover the creative contents by Uncommon Co-Op for clients, learners, etc.</p>
+                                            <br>
+                                        </div>
+                                        <div id="cardbtn" class="d-flex justify-content-end h-10" style="position: absolute; left: 95%; top: 60%;">
+                                            <a href="#" class="btn btn-dark ml-auto p-2" id="btncard1"><br><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+
+                    </div>
+
+
+                </div>
+                <div style="height: 30vh;">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <footer>
+        <div id="footer1">
+            <div id="txt_footer">เสนอแนะ/สอบถาม</div>
+        </div>
+        <div id="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p id="header_footer"><strong>UNCOMMON</strong> VOLUNTEER</p>
+                        <div id="header_borderbottom"> </div>
+                        <ul class="footer2_row1">
+                            <li><a id="footer2_txt1" href="#">All Online Volunteer Activities</a></li>
+                            <li><a id="footer2_txt1" href="#">All Volunteer Events</a></li>
+                            <li><a id="footer2_txt1" href="#">Categories of Online Activities</a></li>
+                            <li><a id="footer2_txt1" href="#">Catagories of Events</a></li>
+                            <li><a id="footer2_txt1" href="#">Getting a Certificate</a></li>
+                            <li><a id="footer2_txt1" href="#">Other Verification</a></li>
+                            <li><a id="footer2_txt1" href="#">About</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <p id="header_footer"><strong>UNCOMMON</strong> CO-OP</p>
+                        <div id="header_borderbottom"> </div>
+                        <ul class="footer2_row1">
+                            <li><a id="footer2_txt1">Online Activities</a></li>
+                            <li><a id="footer2_txt1">Services</a></li>
+                            <li><a id="footer2_txt1">Monetization</a></li>
+                            <li><a id="footer2_txt1">for Organizations</a></li>
+                            <li><a id="footer2_txt1">for SMEs and Business</a></li>
+                            <li><a id="footer2_txt1">for Students</a></li>
+                            <li><a id="footer2_txt1">About</a></li>
+                    </div>
+                    <div class="col-sm-4">
+                        <p id="header_footer"><strong>GET</strong> in <strong>TOUCH</strong></p>
+                        <div id="header_borderbottom"> </div>
+                        <ul class="footer2_row1">
+                            <li><a id="footer2_txt1" href="#">Line | @uncommonvolunteer</a></li>
+                            <li><a id="footer2_txt1" href="#">Phone | 089 909 4472</a></li>
+                            <li><a id="footer2_txt1" href="#">Monetization</a></li>
+                            <li><a id="footer2_txt1" href="#">E-Mail | contact@unco-op.co.th</a></li>
+                            <li><a id="footer2_txt1" href="#">Facebook | Uncommon Co-Op</a></li>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="comp-kstzhd3d" class="XUUsC _2S73V" title="">
+                        <a data-testid="linkElement"
+                            href="https://www.trustmarkthai.com/callbackData/popup.php?data=a1-17-5-4f6901027255dbc769924eb8a9fa6f23d9a047700f4&amp;markID=firstmar"
+                            target="_blank" rel="noopener" class="xQ_iF">
+                            <wix-image id="img_comp-kstzhd3d" class="_1-6YJ _1Fe8-"
+                                data-image-info="{&quot;containerId&quot;:&quot;comp-kstzhd3d&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:545,&quot;height&quot;:259,&quot;uri&quot;:&quot;58d396_18389bb096a649958e4c6e3dc6fa5273~mv2.png&quot;,&quot;name&quot;:&quot;DBD-Registered.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed=""
+                                data-has-ssr-src=""
+                                data-src="https://static.wixstatic.com/media/58d396_18389bb096a649958e4c6e3dc6fa5273~mv2.png/v1/fill/w_108,h_51,al_c,q_85,usm_0.66_1.00_0.01/DBD-Registered.webp">
+                                <img src="https://static.wixstatic.com/media/58d396_18389bb096a649958e4c6e3dc6fa5273~mv2.png/v1/fill/w_108,h_51,al_c,q_85,usm_0.66_1.00_0.01/DBD-Registered.webp"
+                                    alt="DBD-Registered.png"
+                                    style="width:86px;height:41px;object-fit:cover;object-position:50% 50%">
+                            </wix-image>
+                        </a>
+                    </div>
+                    <p id="copyright">©2021 UNCOMMON VOLUNTEER <a style="color:whitesmoke; text-decoration: underline;"
+                            href="#">by Uncommon Co-Op
+                            Limited Partnership</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
