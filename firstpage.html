@@ -235,9 +235,15 @@
 
         #cardcolele:hover,
         #cardcolele:focus,
-        #cardcolele:active {
+        #cardcolele:active{
             -webkit-transform: scale(1.1);
             transform: scale(1.1);
+        }
+
+        #cardcolele:hover .colorpic,
+        #cardcolele:focus .colorpic,
+        #cardcolele:active .colorpic{
+            transform: translateX(15%);
         }
 
 
@@ -249,19 +255,15 @@
 
 
         .colorpic {
-            background-color: none;
+            background-color: #00ff;
             border-radius: 10px;
             width: 80%;
             height: 80%;
             margin-left: 0%;
             margin-top: 4%;
-
         }
 
-        .colorpic:hover {
-            background: #0000ff;
-            transform: translateX(10px);
-        }
+
     </style>
 
 
@@ -442,12 +444,14 @@
                             <div class="card-columns col-12">
                                 <div class="card m-4 col-11" id="cardcolele">
                                     <div class="colorpic">
+                                        <a href="#">
                                         <img class="card-img-top" id="piccardcol"
-                                            src="https://static.wixstatic.com/media/58d396_40d755551be4487fbd310a8e725fb00a~mv2.jpg/v1/fill/w_213,h_140,al_c,q_80,usm_0.66_1.00_0.01/58d396_40d755551be4487fbd310a8e725fb00a~mv2.webp"
+                                            src="tree.webp"
                                             alt="Card image cap"
                                             style="border-radius: 10px; width: 100%; height: 100%; margin-left: 0%; margin-top: 0%;">
-                                    </div>
-                                    <div class="card-body text-left">
+                                        </a>
+                                        </div>
+                                    <div class="card-body text-left" id="cardtextt">
                                         <h2 class="card-title" id="cardtitleblack">
                                             <b>ปลูกต้นไม้ออนไลน์ (สนับสนุนค่าโครงการ)</b>
                                         </h2>
@@ -455,7 +459,7 @@
                                         <p class="card-text pr-4">ปลูกป่าออนไลน์ได้ง่าย ๆ ทางมือถือ หรือคอมพ์
                                             สามารถขอใบรับรอง และชั่วโมงอาสาได้</p>
                                         <div class="d-flex justify-content-end h-10"
-                                            style="position: absolute; left: 85%; top: 80%;">
+                                            style="position: absolute; left: 85%; top: 70%;">
                                             <a href="#" class="btn ml-auto p-2" id="btncard1blue"><br><svg
                                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -469,11 +473,13 @@
 
                                 <div class="card m-4 col-11" id="cardcolele">
                                     <div class="colorpic">
+                                        <a href="#">
                                         <img class="card-img-top" id="piccardcol"
-                                            src="https://static.wixstatic.com/media/58d396_ce59891f357c485c8fdf8fa5477ed75c~mv2.jpeg/v1/fill/w_213,h_140,al_c,q_80,usm_0.66_1.00_0.01/58d396_ce59891f357c485c8fdf8fa5477ed75c~mv2.webp"
+                                            src="card.webp"
                                             alt="Card image cap"
                                             style="border-radius: 10px; width: 100%; height: 100%; margin-left: 0%; margin-top: 0%;">
-                                    </div>
+                                        </a>
+                                        </div>
                                     <div class="card-body text-left">
                                         <h2 class="card-title" id="cardtitleblack">
                                             <b>วาดการ์ดเพื่อการศึกษา</b>
@@ -484,7 +490,7 @@
                                             วาดการ์ดเพื่อการศึกษา
                                             ร่วมจัดทำการ์ดเกมเพื่อการศึกษา ทั้งการ์ดภาษาอังกฤษ เคมี ฯลฯ</p>
                                         <div class="d-flex justify-content-end h-10"
-                                            style="position: absolute; left: 85%; top: 80%;">
+                                            style="position: absolute; left: 85%; top: 70%;">
                                             <a href="#" class="btn ml-auto p-2" id="btncard1blue"><br><svg
                                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -498,11 +504,13 @@
 
                                 <div class="card m-4 col-11" id="cardcolele">
                                     <div class="colorpic">
+                                        <a href="#">
                                         <img class="card-img-top" id="piccardcol"
-                                            src="https://static.wixstatic.com/media/11062b_120db528c47648a290e84981b4c58c14~mv2.jpg/v1/fill/w_213,h_140,al_c,q_80,usm_0.66_1.00_0.01/11062b_120db528c47648a290e84981b4c58c14~mv2.webp"
+                                            src="drawing.webp"
                                             alt="Card image cap"
                                             style="border-radius: 10px; width: 100%; height: 100%; margin-left: 0%; margin-top: 0%;">
-                                    </div>
+                                        </a>
+                                        </div>
                                     <div class="card-body text-left">
                                         <h2 class="card-title" id="cardtitleblack">
                                             <b>จัดทำ/พิมพ์เล่มสมุดภาพระบายสี</b>
@@ -511,7 +519,7 @@
                                         <p class="card-text pr-4">จัดทำสมุดภาพระบายสี
                                             เพื่อส่งมอบให้กับสถานสงเคราะห์เด็กเล็ก</p>
                                         <div class="d-flex justify-content-end h-10"
-                                            style="position: absolute; left: 85%; top: 80%;">
+                                            style="position: absolute; left: 87%; top: 70%;">
                                             <a href="#" class="btn ml-auto p-2" id="btncard1blue"><br><svg
                                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -525,11 +533,13 @@
 
                                 <div class="card m-4 col-11" id="cardcolele">
                                     <div class="colorpic">
+                                        <a href="#">
                                         <img class="card-img-top" id="piccardcol"
-                                            src="https://static.wixstatic.com/media/58d396_44f8ae6d71a740e7886368680e215923~mv2.jpeg/v1/fill/w_213,h_140,al_c,q_80,usm_0.66_1.00_0.01/58d396_44f8ae6d71a740e7886368680e215923~mv2.webp"
+                                            src="notebook.webp"
                                             alt="Card image cap"
                                             style="border-radius: 10px; width: 100%; height: 100%; margin-left: 0%; margin-top: 0%;">
-                                    </div>
+                                        </a>
+                                        </div>
                                     <div class="card-body text-left">
                                         <h2 class="card-title" id="cardtitleblack">
                                             <b>สมุดทำมือเพื่อน้อง</b>
@@ -538,7 +548,7 @@
                                         <p class="card-text pr-4">เพียงทำสมุดทำมือง่ายๆ
                                             เพื่อนำไปแจกให้เด็กด้อยโอกาสที่ขาดแคลนอุปกรณ์การเรียน</p>
                                         <div class="d-flex justify-content-end h-10"
-                                            style="position: absolute; left: 85%; top: 80%;">
+                                            style="position: absolute; left: 85%; top: 70%;">
                                             <a href="#" class="btn ml-auto p-2" id="btncard1blue"><br><svg
                                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -552,11 +562,13 @@
 
                                 <div class="card m-4 col-11" id="cardcolele">
                                     <div class="colorpic">
+                                        <a href="#">
                                         <img class="card-img-top" id="piccardcol"
-                                            src="https://static.wixstatic.com/media/b17692ae3223436b881620356acb41ed.jpg/v1/fill/w_213,h_140,al_c,q_80,usm_0.66_1.00_0.01/b17692ae3223436b881620356acb41ed.webp"
+                                            src="coffee.webp"
                                             alt="Card image cap"
                                             style="border-radius: 10px; width: 100%; height: 100%; margin-left: 0%; margin-top: 0%;">
-                                    </div>
+                                        </a>
+                                        </div>
                                     <div class="card-body text-left">
                                         <h2 class="card-title" id="cardtitleblack">
                                             <b>วาดภาพการ์ตูนสำหรับทำสมุดภาพระบายสี</b>
@@ -565,7 +577,7 @@
                                         <p class="card-text pr-5">วาดภาพการ์ตูนสำหรับทำสมุดภาพระบายสีเพื่อเด็กด้อยโอกาส
                                             ตามสถานศึกษา ฯลฯ</p>
                                         <div class="d-flex justify-content-end h-10"
-                                            style="position: absolute; left: 85%; top: 80%;">
+                                            style="position: absolute; left: 85%; top: 70%;">
                                             <a href="#" class="btn ml-auto p-2" id="btncard1blue"><br><svg
                                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -579,11 +591,13 @@
 
                                 <div class="card m-4 col-11" id="cardcolele">
                                     <div class="colorpic">
+                                        <a href="#">
                                         <img class="card-img-top" id="piccardcol"
-                                            src="https://static.wixstatic.com/media/58d396_de875bba8dda45fc94319a24979dd81f~mv2.jpeg/v1/fill/w_213,h_140,al_c,q_80,usm_0.66_1.00_0.01/58d396_de875bba8dda45fc94319a24979dd81f~mv2.webp"
+                                            src="blind.webp"
                                             alt="Card image cap"
                                             style="border-radius: 10px; width: 100%; height: 100%; margin-left: 0%; margin-top: 0%;">
-                                    </div>
+                                        </a>
+                                        </div>
                                     <div class="card-body text-left">
                                         <h2 class="card-title" id="cardtitleblack">
                                             <b>พิมพ์หนังสือให้คนตาบอด</b>
@@ -592,7 +606,7 @@
                                         <p class="card-text pr-4">พิมพ์หนังสือทางมือถือ หรือคอมพ์ ฯ
                                             เพื่อส่งมอบให้หน่วยงานที่เกี่ยวข้อง ไปทำเป็นหนังสืออักษรเบลล์</p>
                                         <div class="d-flex justify-content-end h-10"
-                                            style="position: absolute; left: 85%; top: 80%;">
+                                            style="position: absolute; left: 85%; top: 70%;">
                                             <a href="#" class="btn ml-auto p-2" id="btncard1blue"><br><svg
                                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -606,11 +620,13 @@
 
                                 <div class="card m-4 col-11" id="cardcolele">
                                     <div class="colorpic">
+                                        <a href="#">
                                         <img class="card-img-top" id="piccardcol"
-                                            src="https://static.wixstatic.com/media/58d396_5ffbc738caf24c37890baf9a23fec071~mv2.jpeg/v1/fill/w_213,h_140,al_c,q_80,usm_0.66_1.00_0.01/58d396_5ffbc738caf24c37890baf9a23fec071~mv2.webp"
+                                            src="mask.webp"
                                             alt="Card image cap"
                                             style="border-radius: 10px; width: 100%; height: 100%; margin-left: 0%; margin-top: 0%;">
-                                    </div>
+                                        </a>
+                                        </div>
                                     <div class="card-body text-left">
                                         <h2 class="card-title" id="cardtitleblack">
                                             <b>ทำหน้ากากผ้าออนไลน์ (โครงการใหม่)</b>
@@ -619,7 +635,7 @@
                                         <p class="card-text pr-5">ทำหน้ากากผ้าออนไลน์ เพื่อมอบให้กับสถานพยาบาล
                                             หรือหน่วยงานที่เกี่ยวข้องได้ทุกที่</p>
                                         <div class="d-flex justify-content-end h-10"
-                                            style="position: absolute; left: 85%; top: 80%;">
+                                            style="position: absolute; left: 85%; top: 70%;">
                                             <a href="#" class="btn ml-auto p-2" id="btncard1blue"><br><svg
                                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -633,11 +649,13 @@
 
                                 <div class="card m-4 col-11" id="cardcolele">
                                     <div class="colorpic">
+                                        <a href="#">
                                         <img class="card-img-top" id="piccardcol"
-                                            src="https://static.wixstatic.com/media/624f1d81941f4c7cbedd4711af12f5b2.jpg/v1/fill/w_213,h_140,al_c,q_80,usm_0.66_1.00_0.01/624f1d81941f4c7cbedd4711af12f5b2.webp"
+                                            src="pc.webp"
                                             alt="Card image cap"
                                             style="border-radius: 10px; width: 99.2%; height: 100%; margin-left: 0%; margin-top: 0%;">
-                                    </div>
+                                        </a>
+                                        </div>
                                     <div class="card-body text-left">
                                         <h2 class="card-title" id="cardtitleblack">
                                             <b>ประชาสัมพันธ์กิจกรรมออนไลน์</b>
@@ -646,7 +664,7 @@
                                         <p class="card-text pr-5">ใช้โทรศัพท์ ฯ
                                             เท่านั้นก็สามารถเข้าร่วมกิจกรรมนี้ได้แล้ว สามารถเข้าร่วมได้ไม่จำกัดครั้ง</p>
                                         <div class="d-flex justify-content-end h-10"
-                                            style="position: absolute; left: 85%; top: 80%;">
+                                            style="position: absolute; left: 85%; top: 70%;">
                                             <a href="#" class="btn ml-auto p-2" id="btncard1blue"><br><svg
                                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                     fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -666,7 +684,7 @@
                     <br>
                     <div class="d-flex align-items-center justify-content-center mt-5" style="height: 7vh;"
                         id="morebox">
-                        <a class="btn col-2" id="more">ดูเพิ่มเติม <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        <a href="#" class="btn col-2" id="more">ดูเพิ่มเติม <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                 height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                     d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
