@@ -70,7 +70,7 @@ function add() {
     adiv5.setAttribute("href","#");
     adiv5.setAttribute("class","text-secondary");
     adiv5.setAttribute("id","inform");
-    var inform = document.createTextNode("ดูรายละเอียด ->")
+    var inform = document.createTextNode("ดูรายละเอียด →")
     adiv5.appendChild(inform);
     var svg = document.createElement("svg");
     div5.appendChild(adiv5);
@@ -137,7 +137,7 @@ var c2adiv5 = document.createElement("a");
 c2adiv5.setAttribute("href","#");
 c2adiv5.setAttribute("class","text-secondary");
 c2adiv5.setAttribute("id","inform");
-var c2inform = document.createTextNode("ดูรายละเอียด ->")
+var c2inform = document.createTextNode("ดูรายละเอียด →")
 c2adiv5.appendChild(c2inform);
 var c2svg = document.createElement("svg");
 c2div5.appendChild(c2adiv5);
@@ -152,7 +152,7 @@ c2adiv5.appendChild(c2svg);
 var c2path = document.createElement("path");
 c2path.setAttribute("fill-rule","evenodd");
 c2path.setAttribute("d","M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z")
-svg.appendChild(path);
+c2svg.appendChild(c2path);
 //-----------------------------------------------------------------------------------------------------------------//
     var more = document.getElementById("more");
     more.setAttribute("onclick","");
