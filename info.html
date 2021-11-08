@@ -13,56 +13,59 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
+    <link rel="icon" sizes="192x192" href="./img/logo-title.png">
+    <link rel="shortcut icon" href="./img/logo-title.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./img/logo-title.png" type="image/png" />
 </head>
 
 <body>
 
     <nav class="nav navbar-fixed-top" id="topbar">
         <div class="container-fluid">
-            <span class="navbar-header">
+            <a class="navbar-brand nav_head" id="nav_head" href="#">
+                <img src="./LOGO-VOLUNTEER-WHITE.png" width="110" style="top:0%; left:5%; position:absolute;"></a>
+
+            <div class="nav nav_s" style=" float:right;margin-left: 0;">
+                <li><a id="nav_li2" href="#">อาสาออนไลน์</a></li>
+                <li><a id="nav_li3" href="#">อาสาลงพื้นที่</a></li>
+                <li><a id="nav_li4" href="#">ลง/จัดกิจกรรม</a></li>
+                <li><a id="nav_li5" href="#">Log In
+                        <svg id="profile" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                        </svg>
+                    </a></li>
                 <div class="dropdown">
-                    <button class="dropbtn">
-                        <svg id="point" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    <a id="nav_li6">
+                        <svg id="emoji" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                             class="bi bi-chevron-down" viewBox="-5 5 20 20">
                             <path fill-rule="evenodd"
                                 d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                         </svg>
                         <img id="thai"
                             src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/round/THA.png">
-                    </button>
-                    <div class="dropdown-content">
-                        <img id="english"
-                            src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/round/USA.png">
-                    </div>
-                </div>
-            </span>
-            <div class="navbar-header" id="pointer">
-                <a href="https://www.uncommonunique.com/donate" class="navbar-brand nav_head" id="box_profile" style="color:white; font-size: medium; display: flex; justify-content: center;
-                align-items: center;">Log in &nbsp;
+                        <span class="caret"></span></a>
 
-                    <svg id="profile" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-person-circle" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                        <path fill-rule="evenodd"
-                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-                    </svg>
-                </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">
+                                <img id="english"
+                                    src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/round/USA.png">
+                            </a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="navbar-header">
-                <a class="navbar-brand nav_head" id="nav_head" href="#">UNCOMMON <br>VOLUNTEER</a>
-            </div>
-            <ul class="nav nav_s" style=" float:right;margin-left: 0;">
+            <ul class="nav nav_s" style=" float:right; margin-left: 55%; margin-top: 2%; position: absolute;">
                 <li><a id="nav_li" href="#">หน้าหลัก</a></li>
-                <li><a id="nav_li" href="#">งานอาสา</a></li>
-                <li><a id="nav_li" href="#">บทความ</a></li>
+                <li><a id="nav_li" href="#">รับรอง/เกียรติบัตร</a></li>
                 <li><a id="nav_li" href="#">ช่วยเหลือ</a></li>
+                <li><a id="nav_li" href="#">ทุนการศึกษา</a></li>
                 <li><a id="nav_li" href="#">บริจาค</a></li>
+                <li><a id="nav_li" href="#">บทความ</a></li>
                 <li><a id="nav_li" href="#">เกี่ยวกับ</a></li>
                 <!-- <li><img src="ig.png" class="ig" onclick="ig()"></img> -->
-                <li> <i class="glyphicon glyphicon-search"></i><input type="text" id="search"
-                        placeholder="&nbsp;&nbsp;Search.."></li>
-                </li>
+
             </ul>
 
         </div>
@@ -70,8 +73,27 @@
     </nav>
     <nav class="nav navbar-fixed-bottom" id="chatbar">
         <div class="chat">
-            <a><svg style="color:white; margin-left:7%; text-align:center; margin-right:5%" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" style="border-radius: 0px; fill: rgb(255, 255, 255); width: 26px; height: 26px; flex-shrink: 0;"><path d="M16 2C8.28 2 2 7.8 2 14.93a12.144 12.144 0 001.696 6.15l-1.668 7.51A1.16 1.16 0 003.63 29.9l6.914-3.072A14.835 14.835 0 0016 27.861c7.72 0 14-5.8 14-12.93S23.72 2 16 2zm4.508 16.32h-9.016a1.16 1.16 0 010-2.32h9.016a1.16 1.16 0 010 2.32zm0-4.638h-9.016a1.16 1.16 0 010-2.318h9.016a1.16 1.16 0 110 2.318z" fill="currentColor" fill-rule="nonzero"></path></svg>
-            <p id="txt_chat" style="display:inline;">มาแชทกัน!</p>
+            <a><svg style="color:white; margin-left:7%; text-align:center; margin-right:5%"
+                    xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                    style="border-radius: 0px; fill: rgb(255, 255, 255); width: 26px; height: 26px; flex-shrink: 0;">
+                    <path
+                        d="M16 2C8.28 2 2 7.8 2 14.93a12.144 12.144 0 001.696 6.15l-1.668 7.51A1.16 1.16 0 003.63 29.9l6.914-3.072A14.835 14.835 0 0016 27.861c7.72 0 14-5.8 14-12.93S23.72 2 16 2zm4.508 16.32h-9.016a1.16 1.16 0 010-2.32h9.016a1.16 1.16 0 010 2.32zm0-4.638h-9.016a1.16 1.16 0 010-2.318h9.016a1.16 1.16 0 110 2.318z"
+                        fill="currentColor" fill-rule="nonzero"></path>
+                </svg>
+                <p id="txt_chat" style="display:inline;">มาแชทกัน!</p>
+            </a>
+        </div>
+    </nav>
+    <nav class="nav navbar-fixed-bottom" id="chatbar">
+        <div class="chat">
+            <a><svg style="color:white; margin-left:7%; text-align:center; margin-right:5%"
+                    xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                    style="border-radius: 0px; fill: rgb(255, 255, 255); width: 26px; height: 26px; flex-shrink: 0;">
+                    <path
+                        d="M16 2C8.28 2 2 7.8 2 14.93a12.144 12.144 0 001.696 6.15l-1.668 7.51A1.16 1.16 0 003.63 29.9l6.914-3.072A14.835 14.835 0 0016 27.861c7.72 0 14-5.8 14-12.93S23.72 2 16 2zm4.508 16.32h-9.016a1.16 1.16 0 010-2.32h9.016a1.16 1.16 0 010 2.32zm0-4.638h-9.016a1.16 1.16 0 010-2.318h9.016a1.16 1.16 0 110 2.318z"
+                        fill="currentColor" fill-rule="nonzero"></path>
+                </svg>
+                <p id="txt_chat" style="display:inline;">มาแชทกัน!</p>
             </a>
         </div>
     </nav>
@@ -224,15 +246,30 @@
                     </div>
                     <div class="col-sm-3" id="hover_3">
                         <div id="img3_head">
-                            <svg preserveAspectRatio="xMidYMid meet" data-bbox="34 34 132 132" viewBox="34 34 132 132" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-labelledby="svgcid--qqtg0s-jssb4n"><defs><style>#comp-ksix9tfm1 svg [data-color="1"] {fill: #254DCF;}</style></defs><title id="svgcid--qqtg0s-jssb4n"></title>
+                            <svg preserveAspectRatio="xMidYMid meet" data-bbox="34 34 132 132" viewBox="34 34 132 132"
+                                height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color"
+                                role="presentation" aria-hidden="true" aria-labelledby="svgcid--qqtg0s-jssb4n">
+                                <defs>
+                                    <style>
+                                        #comp-ksix9tfm1 svg [data-color="1"] {
+                                            fill: #254DCF;
+                                        }
+                                    </style>
+                                </defs>
+                                <title id="svgcid--qqtg0s-jssb4n"></title>
                                 <g>
-                                    <path d="M100 166c-36.393 0-66-29.607-66-66s29.607-66 66-66 66 29.607 66 66-29.607 66-66 66zm0-126c-33.083 0-60 26.917-60 60s26.917 60 60 60 60-26.917 60-60-26.917-60-60-60z" fill="#3940B2" data-color="1"></path>
-                                    <path d="M100 151c-28.122 0-51-22.878-51-51s22.878-51 51-51 51 22.878 51 51-22.878 51-51 51zm0-96c-24.813 0-45 20.187-45 45s20.187 45 45 45 45-20.187 45-45-20.187-45-45-45z" fill="#3940B2" data-color="1"></path>
+                                    <path
+                                        d="M100 166c-36.393 0-66-29.607-66-66s29.607-66 66-66 66 29.607 66 66-29.607 66-66 66zm0-126c-33.083 0-60 26.917-60 60s26.917 60 60 60 60-26.917 60-60-26.917-60-60-60z"
+                                        fill="#3940B2" data-color="1"></path>
+                                    <path
+                                        d="M100 151c-28.122 0-51-22.878-51-51s22.878-51 51-51 51 22.878 51 51-22.878 51-51 51zm0-96c-24.813 0-45 20.187-45 45s20.187 45 45 45 45-20.187 45-45-20.187-45-45-45z"
+                                        fill="#3940B2" data-color="1"></path>
                                     <path fill="#3940B2" d="M103 61v6h-6v-6h6z" data-color="1"></path>
                                     <path fill="#3940B2" d="M103 133v6h-6v-6h6z" data-color="1"></path>
                                     <path fill="#3940B2" d="M139 97v6h-6v-6h6z" data-color="1"></path>
                                     <path fill="#3940B2" d="M67 97v6h-6v-6h6z" data-color="1"></path>
-                                    <path d="M118 103h-18a3 3 0 0 1-3-3V73h6v24h15v6z" fill="#3940B2" data-color="1"></path>
+                                    <path d="M118 103h-18a3 3 0 0 1-3-3V73h6v24h15v6z" fill="#3940B2" data-color="1">
+                                    </path>
                                 </g>
                             </svg>
                         </div>
@@ -241,19 +278,47 @@
                     </div>
                     <div class="col-sm-3" id="hover_4">
                         <div id="img4_head">
-                            <svg preserveAspectRatio="xMidYMid meet" data-bbox="35.5 28 129 144" viewBox="35.5 28 129 144" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-labelledby="svgcid-hdz9h2-67is2s"><defs><style>#comp-ksix9tgn svg [data-color="1"] {fill: #254DCF;}</style></defs><title id="svgcid-hdz9h2-67is2s"></title>
+                            <svg preserveAspectRatio="xMidYMid meet" data-bbox="35.5 28 129 144"
+                                viewBox="35.5 28 129 144" height="200" width="200" xmlns="http://www.w3.org/2000/svg"
+                                data-type="color" role="presentation" aria-hidden="true"
+                                aria-labelledby="svgcid-hdz9h2-67is2s">
+                                <defs>
+                                    <style>
+                                        #comp-ksix9tgn svg [data-color="1"] {
+                                            fill: #254DCF;
+                                        }
+                                    </style>
+                                </defs>
+                                <title id="svgcid-hdz9h2-67is2s"></title>
                                 <g>
                                     <path fill="#3940B2" d="M164.5 100v6h-87v-6h87z" data-color="1"></path>
-                                    <path d="M131.5 103h-6v-6h-9v-6h12a3 3 0 0 1 3 3v9z" fill="#3940B2" data-color="1"></path>
-                                    <path d="M143.5 103h-6v-9a3 3 0 0 1 3-3h15V61h-12v-6h15a3 3 0 0 1 3 3v36a3 3 0 0 1-3 3h-15v6z" fill="#3940B2" data-color="1"></path>
-                                    <path d="M140.5 85h-9a3 3 0 0 1-3-3V31a3 3 0 0 1 3-3h9c4.963 0 9 4.037 9 9v39c0 4.963-4.037 9-9 9zm-6-6h6c1.655 0 3-1.346 3-3V37c0-1.654-1.345-3-3-3h-6v45z" fill="#3940B2" data-color="1"></path>
+                                    <path d="M131.5 103h-6v-6h-9v-6h12a3 3 0 0 1 3 3v9z" fill="#3940B2" data-color="1">
+                                    </path>
+                                    <path
+                                        d="M143.5 103h-6v-9a3 3 0 0 1 3-3h15V61h-12v-6h15a3 3 0 0 1 3 3v36a3 3 0 0 1-3 3h-15v6z"
+                                        fill="#3940B2" data-color="1"></path>
+                                    <path
+                                        d="M140.5 85h-9a3 3 0 0 1-3-3V31a3 3 0 0 1 3-3h9c4.963 0 9 4.037 9 9v39c0 4.963-4.037 9-9 9zm-6-6h6c1.655 0 3-1.346 3-3V37c0-1.654-1.345-3-3-3h-6v45z"
+                                        fill="#3940B2" data-color="1"></path>
                                     <path fill="#3940B2" d="M68.5 148v15h-6v-15h6z" data-color="1"></path>
-                                    <path d="M104.866 170.437L87.719 139H68.5c-11.578 0-21-9.42-21-21V85c0-8.271 6.729-15 15-15h12c.624 0 1.236.195 1.743.558L96.461 85H110.5a2.998 2.998 0 0 1 2.979 2.657c.041.344.914 8.489-3.876 13.862-2.654 2.974-6.39 4.481-11.104 4.481h-12a3.003 3.003 0 0 1-1.664-.504l-18-12 3.328-4.992L87.408 100H98.5c2.974 0 5.139-.81 6.624-2.474 1.679-1.884 2.227-4.551 2.388-6.526H95.5a2.999 2.999 0 0 1-1.743-.558L73.539 76H62.5c-4.963 0-9 4.037-9 9v33c0 8.271 6.729 15 15 15h21c1.099 0 2.109.599 2.634 1.563l18 33-5.268 2.874z" fill="#3940B2" data-color="1"></path>
-                                    <path d="M118.293 169.939l-14.484-43.956C102.145 121.23 97.592 118 92.5 118h-15a3 3 0 0 1-3-3V97h6v15h12a18.019 18.019 0 0 1 16.989 12.053l14.505 44.008-5.701 1.878z" fill="#3940B2" data-color="1"></path>
-                                    <path d="M83.5 151h-21c-14.889 0-27-12.113-27-27V79h6v45c0 11.58 9.422 21 21 21h21v6z" fill="#3940B2" data-color="1"></path>
-                                    <path d="M66.004 125.664L60.895 118H38.5v-6h24c1.002 0 1.939.501 2.496 1.336l6 9-4.992 3.328z" fill="#3940B2" data-color="1"></path>
-                                    <path d="M83.5 172h-12a2.995 2.995 0 0 1-2.121-.879l-3.879-3.879-3.879 3.879A2.995 2.995 0 0 1 59.5 172h-12v-6h10.758l5.121-5.121a2.998 2.998 0 0 1 4.242 0L72.742 166H83.5v6z" fill="#3940B2" data-color="1"></path>
-                                    <path d="M67 67c-9.097 0-16.5-7.113-16.5-15.855v-4.289C50.5 38.113 57.903 31 67 31s16.5 7.113 16.5 15.855v4.289C83.5 59.887 76.097 67 67 67zm0-30c-5.789 0-10.5 4.421-10.5 9.855v4.289C56.5 56.579 61.211 61 67 61s10.5-4.421 10.5-9.855v-4.289C77.5 41.421 72.789 37 67 37z" fill="#3940B2" data-color="1"></path>
+                                    <path
+                                        d="M104.866 170.437L87.719 139H68.5c-11.578 0-21-9.42-21-21V85c0-8.271 6.729-15 15-15h12c.624 0 1.236.195 1.743.558L96.461 85H110.5a2.998 2.998 0 0 1 2.979 2.657c.041.344.914 8.489-3.876 13.862-2.654 2.974-6.39 4.481-11.104 4.481h-12a3.003 3.003 0 0 1-1.664-.504l-18-12 3.328-4.992L87.408 100H98.5c2.974 0 5.139-.81 6.624-2.474 1.679-1.884 2.227-4.551 2.388-6.526H95.5a2.999 2.999 0 0 1-1.743-.558L73.539 76H62.5c-4.963 0-9 4.037-9 9v33c0 8.271 6.729 15 15 15h21c1.099 0 2.109.599 2.634 1.563l18 33-5.268 2.874z"
+                                        fill="#3940B2" data-color="1"></path>
+                                    <path
+                                        d="M118.293 169.939l-14.484-43.956C102.145 121.23 97.592 118 92.5 118h-15a3 3 0 0 1-3-3V97h6v15h12a18.019 18.019 0 0 1 16.989 12.053l14.505 44.008-5.701 1.878z"
+                                        fill="#3940B2" data-color="1"></path>
+                                    <path
+                                        d="M83.5 151h-21c-14.889 0-27-12.113-27-27V79h6v45c0 11.58 9.422 21 21 21h21v6z"
+                                        fill="#3940B2" data-color="1"></path>
+                                    <path
+                                        d="M66.004 125.664L60.895 118H38.5v-6h24c1.002 0 1.939.501 2.496 1.336l6 9-4.992 3.328z"
+                                        fill="#3940B2" data-color="1"></path>
+                                    <path
+                                        d="M83.5 172h-12a2.995 2.995 0 0 1-2.121-.879l-3.879-3.879-3.879 3.879A2.995 2.995 0 0 1 59.5 172h-12v-6h10.758l5.121-5.121a2.998 2.998 0 0 1 4.242 0L72.742 166H83.5v6z"
+                                        fill="#3940B2" data-color="1"></path>
+                                    <path
+                                        d="M67 67c-9.097 0-16.5-7.113-16.5-15.855v-4.289C50.5 38.113 57.903 31 67 31s16.5 7.113 16.5 15.855v4.289C83.5 59.887 76.097 67 67 67zm0-30c-5.789 0-10.5 4.421-10.5 9.855v4.289C56.5 56.579 61.211 61 67 61s10.5-4.421 10.5-9.855v-4.289C77.5 41.421 72.789 37 67 37z"
+                                        fill="#3940B2" data-color="1"></path>
                                 </g>
                             </svg>
                         </div>
@@ -315,10 +380,12 @@
             <div class="col-8">
                 <p id="st2">ส่งหลักฐาน</p>
                 <div id="txt_st2">
-                <p>1. ถ่ายหลักฐานการโอนและแนบส่งที่ปุ่ม ส่งผลงาน</p>
-                <p>2. หลังจากส่งหลักฐานแล้ว จะได้รับเกียรติบัตรสำหรับโครงการนี้ฟรี ภายใน 1 - 7 วัน<br>&nbsp;&nbsp;&nbsp;ทางอีเมล</p>
-                <p>3. หมายเหตุ เกียรติบัตรฟรี ระบุยอดที่สนับสนุน</p>
-            </div></div>
+                    <p>1. ถ่ายหลักฐานการโอนและแนบส่งที่ปุ่ม ส่งผลงาน</p>
+                    <p>2. หลังจากส่งหลักฐานแล้ว จะได้รับเกียรติบัตรสำหรับโครงการนี้ฟรี ภายใน 1 - 7
+                        วัน<br>&nbsp;&nbsp;&nbsp;ทางอีเมล</p>
+                    <p>3. หมายเหตุ เกียรติบัตรฟรี ระบุยอดที่สนับสนุน</p>
+                </div>
+            </div>
         </div>
     </section>
     <section id="sec_5">
@@ -334,7 +401,8 @@
                 <p id="txt_st3">ขั้นตอนสุดท้าย คือ <b>ส่งผลงาน</b></p>
                 <p id="txt_st4">และเริ่มดำเนินการเพื่อรับ <b style="color:#ee664a">เกียรติบัตรหรือใบรับรอง</b></p>
                 <button id="btn_stp1" class="btn" onclick="document.location = 'sent.html'">ส่งผลงาน</button>
-                <button id="btn2_stp1" class="btn" onclick="document.location = 'cer.html'">ขอการรับรอง/เกียรติบัตร</button>
+                <button id="btn2_stp1" class="btn"
+                    onclick="document.location = 'cer.html'">ขอการรับรอง/เกียรติบัตร</button>
 
             </div>
         </div>
