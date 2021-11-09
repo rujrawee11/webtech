@@ -44,7 +44,7 @@ nav {
     cursor: pointer;
     z-index:100;
 }#nav_li:hover{
-    background-color:#00cfcf;
+    background-color:transparent;
 }
 #nav_li2 {
     padding-top: 2vh;
@@ -128,6 +128,24 @@ nav {
     cursor: pointer;
     z-index:100;
 }
+#nav_li7 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding-top: 2vh;
+    color: whitesmoke;
+    width:6.5vw;
+    height:40px;
+    font-size: 12px;
+    padding:9px;
+    text-align: center;
+    background-color: transparent;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    cursor: pointer;
+    z-index:100;
+    font-size: 1em;
+}
 .dropdown-menu{
     border:0;
     height:5vh;
@@ -170,7 +188,15 @@ nav {
     color: rgb(189, 184, 184);
     opacity: 1;
   }
-
+  .drop_head {
+    color:white;
+    font-size: 1em;
+}
+.drop_head:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
 /* log in */
 
 #thai {
@@ -488,16 +514,6 @@ li {
     padding: 60px 25px 55px 25px;
     width: 675px;
     margin: 0 auto;
-}
-
-.dropdown-content {
-    visibility: hidden;
-}
-.drop_head{
-    visibility:none;
-}
-.drop_head:hover .dropdown-content{
-    visibility:none;
 }
 /* page info */
 .bg1 {
@@ -1761,6 +1777,7 @@ div.card-p3 {
 }
 #call1 {
     background-color: #ff6a48;
+    position:absolute;
     border-radius:20px;
     width:30vw;
     height:25vh;
@@ -1774,6 +1791,7 @@ div.card-p3 {
 }
 #call2 {
     background-color: #00cfcf;
+    position:absolute;
     border-radius:20px;
     width:30vw;
     height:25vh;
@@ -1786,9 +1804,10 @@ div.card-p3 {
 }
 #call3 {
     border-radius:20px;
+    position:absolute;
     width:30vw;
     height:25vh;
-    top:15%;
+    margin-top:35%;
     left:10%;
     padding:10px;
     box-shadow: 1px 2px 4px rgb(192, 192, 192);
@@ -1798,18 +1817,20 @@ div.card-p3 {
     transition: 0.5s ease-in-out;
 }
 #call4 {
+    position:absolute;
     border-radius:20px;
     width:30vw;
     height:25vh;
-    top:15%;
+    margin-top:35%;
     padding:10px;
     box-shadow: 1px 2px 4px rgb(192, 192, 192);
 }
 #call5 {
+    position:absolute;
     border-radius:20px;
     width:65vw;
     height:25vh;
-    top:10vh;
+    margin-top:35%;
     position:absolute;
     left:5%;
     padding:10px;
