@@ -267,6 +267,68 @@
             margin-top: 4%;
         }
 
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .drop_head {
+            padding-top: 1.5vh;
+            color: whitesmoke;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            font-size: 1em;
+            margin-top: 0%;
+            
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(36, 56, 145, 0.5);
+            padding: 10px;
+            text-align: center;
+            width:13vw;
+            margin-top: 1vh;
+            margin-left: -4vw;
+            border-radius: 10px;
+            line-height: 10px;
+            color: white;
+        }
+        .drop_head a{
+            text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        }
+        .dropdown-content a {
+            font-size: 14px;
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            color: white;
+            background-color: transparent;
+
+        }
+
+        .dropdown-content:hover {
+            color: white;
+        }
+
+        .dropdown:hover .dropdown-content {
+            color: white;
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            color: white;
+            background-color: #254dcf;
+
+        }
 
     </style>
 
@@ -277,26 +339,28 @@
     <nav class="nav navbar-fixed-top" id="topbar">
         <div class="container-fluid">
             <a class="navbar-brand nav_head" id="nav_head" href="#">
-                <img src="./img/LOGO-VOLUNTEER-WHITE.png" width="110" style="top:0%; left:5%; position:absolute;"></a>
+                <img src="./img/LOGO-VOLUNTEER-WHITE.png" width="110"
+                    style="top:0%; left:5%; position:absolute;"></a>
 
             <div class="nav nav_s" style=" float:right;margin-left: 0;">
                 <li><a id="nav_li2" href="#">อาสาออนไลน์</a></li>
                 <li><a id="nav_li3" href="#">อาสาลงพื้นที่</a></li>
                 <li><a id="nav_li4" href="#">ลง/จัดกิจกรรม</a></li>
                 <li><a id="nav_li5" href="#">Log In
-                        <svg id="profile" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <svg id="profile" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
                             <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                             <path fill-rule="evenodd"
                                 d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
                         </svg>
+
                     </a></li>
                 <div class="dropdown">
-                    <button class="btn" type="button" id="nav_li6" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
+                    <button class="btn" type="button" id="nav_li6" style="height:40px;" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
 
-                        <svg id="emoji" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                            class="bi bi-chevron-down" viewBox="-5 5 20 20">
+                        <svg id="emoji" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            fill="currentColor" class="bi bi-chevron-down" viewBox="-5 5 20 20">
                             <path fill-rule="evenodd"
                                 d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                         </svg>
@@ -305,43 +369,48 @@
                     </button>
 
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
-                        style="background-color: #1f3fab; z-index:100; position:absolute;">
-                        <button type="button" style="background-color: #1f3fab;" class="dropdown-item" href="#"><img
-                                id="english" src="./img/eng.png"></button>
+                        style="background-color: #1f3fab; z-index:100; position:absolute; ">
+                        <button type="button" style="background-color: #1f3fab; z-index:100;" class="dropdown-item"
+                            href="#"><img id="english" src="./img/eng.png"></button>
 
                     </div>
                 </div>
             </div>
 
 
-            <ul class="nav nav_b" style=" float:right; margin-left: 55%; cursor: pointer;">
+            <ul class="nav nav_b" style=" float:right; margin-left: 55%; cursor: pointer; ">
                 <li><a id="nav_li" href="./home.html">หน้าหลัก</a></li>
-                <li><a id="nav_li" href="./certi.html">รับรอง/เกียรติบัตร</a></li>
+                <li><a id="nav_li" href="#">รับรอง/เกียรติบัตร</a></li>
                 <div class="dropdown">
-                    <div id="nav_li7" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-
-                       ช่วยเหลือ
-
-                </div>
-
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
-                        style="background-color: #1f3fab; z-index:100; position:absolute;">
-                        <button type="button" style="background-color: #1f3fab;" class="dropdown-item" href="#"><img
-                                id="english" src="./img/eng.png"></button>
-
+                    <li class="drop_head"><a id="nav_li" href="./prop.html" style="font-size:1em;">ช่วยเหลือ</a></li>
+                    <div class="dropdown-content">
+                        <a href="#">สนับสนุนทางการศึกษา</a>
+                        <a href="#">สำหรับองค์กร/หน่วยงาน</a>
+                        <a href="#">ถาม-ตอบ</a>
+                        <a href="#">ติดต่อ/ช่วยเหลือ</a>
+                        
                     </div>
                 </div>
-                <li><a id="nav_li" href="./fund.html">ทุนการศึกษา</a></li>
+                <li><a id="nav_li" href="#">ทุนการศึกษา</a></li>
                 <li><a id="nav_li" href="./donate.html">บริจาค</a></li>
                 <li><a id="nav_li" href="#">บทความ</a></li>
-                <li><a id="nav_li" href="#">เกี่ยวกับ</a></li>
+                <div class="dropdown">
+                    <li class="drop_head"><a id="nav_li" href="#">เกี่ยวกับ</a></li>
+                    <div class="dropdown-content" style="width:21vw; margin-left: -13vw;">
+                        <a href="#">UNCOMMON CO-OP</a>
+                        <a href="#">แผนโครงการเพื่อสังคม</a>
+                        <a href="#">PDPA and Personal Information Security</a>
+                        <a href="#">ติดต่อเรา</a>
+                        
+                    </div>
+                </div>
+                
                 <!-- <li><img src="ig.png" class="ig" onclick="ig()"></img> -->
 
             </ul>
 
         </div>
-
+        
     </nav>
     <section id="page4">
         
@@ -451,7 +520,7 @@
                     <div class="col-12">
                         <div class="d-flex justify-content-center">
                             <div class="card col-6" id="cardtomato" style="padding: 3%;">
-                                <h1 class="text" id="onlinevoltitlewhite">จิตอาสา<b>ออนไลน์</b></h1>
+                                <h1 class="text" id="onlinevoltitlewhite" style="font-weight:400;">จิตอาสา<b style="font-weight:600;">ออนไลน์</b></h1>
                                 <div class="d-flex justify-content-center align-items-center" style="height: 5vh;">
                                     <div id="linewhite"></div>
                                 </div>
@@ -756,9 +825,10 @@
                         <button id="but-2" style="border-radius: 10px;"><i class="material-icons">arrow_forward</i></button>
                     </div>
                
-                    <div class="card" id="main-link" style=" width: 250px; height: 70px;border-radius:10px;  margin: 2%; background-color: #0d277c;">
+                    <div class="card" id="main-link" style=" width: 250px; height: 70px;border-radius:10px;  margin: 2%; padding-top:1.5vh;background-color: #0d277c;">
                       <div class="card-body">
                         <a href="#" class="card-link" id="link-cam" >ดูเพิ่มเติม</a>
+                        <i class="material-icons" style="float:right; color:white; transform:scale(1);">arrow_forward</i>
                       </div>
                     </div>
                   </div>
@@ -863,7 +933,7 @@
             <div class="bg_home2" id="ParallaxImage">
             </div>
 
-            <div class="donate_content" id="ParallaxContent">
+            <div class="donate_content" id="ParallaxContent" style="margin-top:5%;">
                 <div id="txt_home1">โดย</div>
                 <div id="txt_home1">Uncommon</div>
                 <div id="txt_home1">Co-Op</div>
@@ -892,7 +962,7 @@
             <div class="bg_home3" id="ParallaxImage">
             </div>
 
-            <div class="donate_content" id="ParallaxContent">
+            <div class="donate_content" id="ParallaxContent" style="margin-top:5%;">
                 <div id="txt_home6">ส่วนสำคัญ</div>
                 <div id="txt_home6">ในการเปลี่ยนแปลง</div>
                 <div id="txt_home6">คือ "คุณ"</div>
@@ -921,7 +991,7 @@
             <div class="bg_home4" id="ParallaxImage">
             </div>
 
-            <div class="donate_content" id="ParallaxContent">
+            <div class="donate_content" id="ParallaxContent" style="margin-top:5%;">
                 <div id="txt_home8">นอกกรอบ</div>
                 <div id="txt_home8">ของคำว่า</div>
                 <div id="txt_home8">จิตอาสา</div>

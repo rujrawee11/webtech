@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@900&display=swap');
 * {
     font-family: 'Prompt', sans-serif;
 }
@@ -41,7 +43,7 @@ nav {
     cursor: pointer;
     z-index:100;
 }#nav_li:hover{
-    background-color:#00cfcf;
+    background-color:transparent;
 }
 #nav_li2 {
     padding-top: 2vh;
@@ -185,7 +187,15 @@ nav {
     color: rgb(189, 184, 184);
     opacity: 1;
   }
-
+  .drop_head {
+    color:white;
+    font-size: 1em;
+}
+.drop_head:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
 /* log in */
 
 #thai {
@@ -761,6 +771,7 @@ li {
     width: 100vw;
     height: 300vh;
 }
+
 .bg-main-2 {
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0.387), rgba(49, 83, 199, 60)), url("https://static.wixstatic.com/media/11062b_171c6d66faab4bff8c30422189697e20~mv2.jpg/v1/fill/w_533,h_375,al_c,q_80,usm_0.66_1.00_0.01/11062b_171c6d66faab4bff8c30422189697e20~mv2.webp");
     background:linear-gradient(rgba(255, 255, 255, 0.374), rgba(49, 83, 199, 60)), url("https://static.wixstatic.com/media/11062b_171c6d66faab4bff8c30422189697e20~mv2.jpg/v1/fill/w_533,h_375,al_c,q_80,usm_0.66_1.00_0.01/11062b_171c6d66faab4bff8c30422189697e20~mv2.webp");
