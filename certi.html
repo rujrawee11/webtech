@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>การรับรอง | จิตอาสาออนไลน์</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/lib/w3.css">
+    <link rel="stylesheet" type="text/css" href="main_1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" sizes="192x192" href="./img/logo-title.png">
+    <link rel="shortcut icon" href="./img/logo-title.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./img/logo-title.png" type="image/png" />
+</head>
+
+<body>
+
+    <section id="page_certi">
+        <nav class="nav navbar-fixed-top" id="topbar">
+            <div class="container-fluid">
+                <a class="navbar-brand nav_head" id="nav_head" href="#">
+                    <img src="./img/LOGO-VOLUNTEER-WHITE.png" width="110"
+                        style="top:0%; left:5%; position:absolute;"></a>
+
+                <div class="nav nav_s" style=" float:right;margin-left: 0;">
+                    <li><a id="nav_li2" href="#">อาสาออนไลน์</a></li>
+                    <li><a id="nav_li3" href="#">อาสาลงพื้นที่</a></li>
+                    <li><a id="nav_li4" href="#">ลง/จัดกิจกรรม</a></li>
+                    <li><a id="nav_li5" href="#">Log In
+                            <svg id="profile" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                            </svg>
+
+                        </a></li>
+                    <div class="dropdown">
+                        <button class="btn" type="button" id="nav_li6" style="height:42.5px;" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+
+                            <svg id="emoji" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" class="bi bi-chevron-down" viewBox="-5 5 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                            <img id="thai" src="./img/thai.png">
+
+                        </button>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
+                            style="background-color: #1f3fab; z-index:100; position:absolute;">
+                            <button type="button" style="background-color: #1f3fab; z-index:100;" class="dropdown-item"
+                                href="#"><img id="english" src="./img/eng.png"></button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <ul class="nav nav_b" style=" float:right; margin-left: 55%; cursor: pointer;">
+                    <li><a id="nav_li" href="./home.html">หน้าหลัก</a></li>
+                    <li><a id="nav_li" href="#">รับรอง/เกียรติบัตร</a></li>
+                    <li><a id="nav_li" href="#">ช่วยเหลือ</a></li>
+                    <li><a id="nav_li" href="#">ทุนการศึกษา</a></li>
+                    <li><a id="nav_li" href="./donate.html">บริจาค</a></li>
+                    <li><a id="nav_li" href="#">บทความ</a></li>
+                    <li><a id="nav_li" style="z-index:1;" href="#">เกี่ยวกับ</a></li>
+                    <!-- <li><img src="ig.png" class="ig" onclick="ig()"></img> -->
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <div class="bg_img_certi">
+            <div class="bg_certi" id="ParallaxImage">
+            </div>
+
+            <div class="donate_content" id="ParallaxContent">
+                <h1 id="h1_certi"><b style="font-weight: 600;">การรับรอง</b>ทั้งหมด</h1>
+                <h4 id="h4_certi">การเข้าร่วม 1 ครั้ง สามารถขอการรับรองได้ทุกประเภท และสามารถขอได้หลายประเภท<br>
+                    ตามที่ต้องการ และขอใหม่ซ้ำได้หากเอกสารการรับรองเดิมหาย/ไม่พบ</h4>
+            </div>
+        </div>
+
+        <div class="container" id="box_under">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="card" id="call1">
+                        <div class="card-body">
+                            <h1 class="card-title" id="t1">เกียรติบัตร</h1>
+                            <p class="card-text" id="t1_1">รับใบรับรอง เพื่อยืนยันการเข้าร่วมกิจกรรมและรับรอง<br>
+                                ชั่วโมงอาสาสมัคร ใช้สำหรับยืนยันการเข้าร่วม สำหรับ<br>
+                                Portfolio เป็นต้น</p>
+                            <a href="#" class="btn btn-dark" id="go_1">
+                                <svg id="arrow_1" style="color:white;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="card" id="call2">
+                        <div class="card-body">
+                            <h1 class="card-title" id="t2">เอกสารรับรอง</h1>
+                            <p class="card-text" id="t2_1">รับรองการเข้าร่วมกิจกรรมสำหรับผู้ที่ไม่มีเอกสารเพื่อลง<br>
+                                นามรับรอง รวมถึงการนำข้อมูลการเข้าร่วมเข้าสู่ระบบ<br>
+                                ในการเป็นส่วนหนึ่งเพื่อให้สามารถตรวจสอบย้อนหลังได้</p>
+                            <a href="#" class="btn btn-dark" id="go_2">
+                                <svg id="arrow_2" style="color:white;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="card" id="call3">
+                        <div class="card-body">
+                            <h1 class="card-title" id="t3">เซ็นรับรองเอกสาร</h1>
+                            <p class="card-text" id="t3_1">สำหรับผู้ที่มีเอกสารที่ต้องเซ็นรับรองการเข้าร่วมกิจกรรม<br>
+                                และนำข้อมูลการเข้าระบบเพื่อตรวจสอบย้อนหลัง</p>
+                            <a href="#" class="btn btn-dark" id="go_3">
+                                <svg id="arrow_3" style="color:white;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="card" id="call4">
+                        <div class="card-body">
+                            <h1 class="card-title" id="t4">อีเมลยืนยัน</h1>
+                            <p class="card-text" id="t4_1">นำข้อมูลการเข้าร่วมเข้าสู่ระบบ และส่งทางอีเมลเพื่อตรวจ<br>
+                                สอบการเข้าร่วม (ไม่มีชั่วโมงอาสาสมัคร) ทางออนไลน์</p>
+                            <a href="#" class="btn btn-dark" id="go_4">
+                                <svg id="arrow_4" style="color:white;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card" id="call5">
+                        <div class="card-body">
+                            <h1 class="card-title" id="t5">รายงานปัญหา/ไม่ได้รับการรับรอง/ตรวจสอบย้อนหลัง</h1>
+                            <p class="card-text" id="t5_1">ไม่ได้รับเกียรติบัตร/เอกสารรับรอง/การรับรอง
+                                แก้ไขเอกสารหรือข้อมูลผิดพลาด เปลี่ยนประเภทหรือขอเงินคืน การตรวจสอบย้อนหลัง<br>
+                                การดำเนินการต่าง ๆ ที่สอดคล้องกับเกียรติบัตรและการรับรอง ฯลฯ</p>
+                            <a href="#" class="btn btn-dark" id="go_5">
+                                <svg id="arrow_5" style="color:white;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+    </section>
+
+    <section id="page_certi2">
+        <h1 id="head_sup1">Support</h1>
+        <h4 id="head_sup2">for Customer</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="card" id="call">
+                        <div class="card-body">
+                            <h1 class="card-title" id="t">ตรวจสอบการรับรองย้อนหลัง</h1>
+
+                            <a href="#" class="btn btn-dark" id="go_">
+                                <svg id="arrow_" style="color:white;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="card" id="call">
+                        <div class="card-body">
+                            <h1 class="card-title" id="t">แก้ไขเอกสาร/เนื้อหาผิดพลาด</h1>
+
+                            <a href="#" class="btn btn-dark" id="go_">
+                                <svg id="arrow_" style="color:white;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:10%">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="card" id="call">
+                        <div class="card-body">
+                            <h1 class="card-title" id="t">
+                                ไม่สามารถส่งคำขอได้</h1>
+
+                            <a href="#" class="btn btn-dark" id="go_">
+                                <svg id="arrow_" style="color:white;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="card" id="call">
+                        <div class="card-body">
+                            <h1 class="card-title" id="t">
+                                เปลี่ยนประเภทการรับรอง</h1>
+
+                            <a href="#" class="btn btn-dark" id="go_">
+                                <svg id="arrow_" style="color:white;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top:10%">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="card" id="call">
+                        <div class="card-body">
+                            <h1 class="card-title" id="t">
+                                ไม่ได้รับในเวลาที่กำหนด</h1>
+
+                            <a href="#" class="btn btn-dark" id="go_">
+                                <svg id="arrow_" style="color:white;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="card" id="call">
+                        <div class="card-body">
+                            <h1 class="card-title" id="t">
+                                ปัญหาการจัดส่งทางไปรษณีย์</h1>
+
+                            <a href="#" class="btn btn-dark" id="go_">
+                                <svg id="arrow_" style="color:white;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+
+        <div class="row" style="margin-top:10%">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="card" id="call">
+                    <div class="card-body">
+                        <h1 class="card-title" id="t">
+                           อื่น ๆ</h1>
+
+                        <a href="#" class="btn btn-dark" id="go_">
+                            <svg id="arrow_" style="color:white;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <br>
+        <div style="top:30vh; text-align:center; position:relative;">
+        <h1 id="head_sup1">Common Questions</h1>
+        <div class="row" style="text-align: left;">
+            <div class="col">
+                <div class="card" id="call6">
+                    <div class="card-body">
+                        <h1 class="card-title" id="t6">ฉันจะสามารถขอรับรองชั่วโมงจิตอาสาได้อย่างไร และการรับรองที่ระบุชั่วโมงจิตอาสามี<br>อะไรบ้าง?</h1>
+                        <svg id="arrow_call" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: left; margin-top:15%;">
+            <div class="col">
+                <div class="card" id="call6">
+                    <div class="card-body">
+                        <h1 class="card-title" id="t6">ฉันจะทราบได้อย่างไรว่ากิจกรรมที่ฉันเข้าร่วมสามารถขอรับรองชั่วโมงจิตอาสาได้ และมี<br>เงื่อนไขอย่างไรบ้าง?</h1>
+                        <svg id="arrow_call" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: left; margin-top:15%;">
+            <div class="col">
+                <div class="card" id="call6">
+                    <div class="card-body">
+                        <h1 class="card-title" id="t6">ฉันจะสามารถขอการรับรองหรือเกียรติบัตรหลังจากเข้าร่วมกิจกรรมแล้วได้อย่างไร และจะ<br>ดำเนินการอย่างไรหากพบปัญหาในการดำเนินการส่งคำขอ ?</h1>
+                        <svg id="arrow_call" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: left; margin-top:15%;">
+            <div class="col">
+                <div class="card" id="call6">
+                    <div class="card-body">
+                        <h1 class="card-title" id="t6">ฉันจะทราบความแตกต่างของการรรับรองแต่ละประเภทได้อย่างไร ?</h1>
+                        <svg id="arrow_call" style="margin-top: -3vh;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: left; margin-top:15%;">
+            <div class="col">
+                <div class="card" id="call6">
+                    <div class="card-body">
+                        <h1 class="card-title" id="t6">ฉันควรดำเนินการขอการรับรองประเภทไหนให้เหมาะสมกับการใช้งานมากที่สุด ?</h1>
+                        <svg id="arrow_call" style="margin-top: -3vh;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: left; margin-top:15%;">
+            <div class="col">
+                <div class="card" id="call6">
+                    <div class="card-body">
+                        <h1 class="card-title" id="t6">ฉันควรเข้าร่วมกิจกรรมใด/อย่างไรเพื่อให้การรับรองชั่วโมงจิตอาสามีประสิทธิภาพ ?</h1>
+                        <svg id="arrow_call"style="margin-top: -3vh;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: left; margin-top:15%;">
+            <div class="col">
+                <div class="card" id="call6">
+                    <div class="card-body">
+                        <h1 class="card-title" id="t6">ฉันสามารถตรวจสอบการรับรองย้อนหลังได้อย่างไร ?</h1>
+                        <svg id="arrow_call" style="margin-top: -3vh;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: left; margin-top:15%;">
+            <div class="col">
+                <div class="card" id="call6">
+                    <div class="card-body">
+                        <h1 class="card-title" id="t6">การตรวจสอบการรับรองย้อนหลังมีเงื่อนไขอย่างไรบ้าง ?</h1>
+                        <svg id="arrow_call" style="margin-top: -3vh;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: left; margin-top:15%;">
+            <div class="col">
+                <div class="card" id="call6">
+                    <div class="card-body">
+                        <h1 class="card-title" id="t6">ฉันจะได้รับเอกสารรับรอง/การรับรองเมื่อไร ?</h1>
+                        <svg id="arrow_call" style="margin-top: -3vh;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="btn_">LOAD MORE</div>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <div id="footer1">
+            <div id="txt_footer">เสนอแนะ/สอบถาม</div>
+        </div>
+        <div id="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p id="header_footer"><strong>UNCOMMON</strong> VOLUNTEER</p>
+                        <div id="header_borderbottom"> </div>
+                        <ul class="footer2_row1">
+                            <li><a id="footer2_txt1" href="#">All Online Volunteer Activities</a></li>
+                            <li><a id="footer2_txt1" href="#">All Volunteer Events</a></li>
+                            <li><a id="footer2_txt1" href="#">Categories of Online Activities</a></li>
+                            <li><a id="footer2_txt1" href="#">Catagories of Events</a></li>
+                            <li><a id="footer2_txt1" href="#">Getting a Certificate</a></li>
+                            <li><a id="footer2_txt1" href="#">Other Verification</a></li>
+                            <li><a id="footer2_txt1" href="#">About</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <p id="header_footer"><strong>UNCOMMON</strong> CO-OP</p>
+                        <div id="header_borderbottom"> </div>
+                        <ul class="footer2_row1">
+                            <li><a id="footer2_txt1">Online Activities</a></li>
+                            <li><a id="footer2_txt1">Services</a></li>
+                            <li><a id="footer2_txt1">Monetization</a></li>
+                            <li><a id="footer2_txt1">for Organizations</a></li>
+                            <li><a id="footer2_txt1">for SMEs and Business</a></li>
+                            <li><a id="footer2_txt1">for Students</a></li>
+                            <li><a id="footer2_txt1">About</a></li>
+                    </div>
+                    <div class="col-sm-4">
+                        <p id="header_footer"><strong>GET</strong> in <strong>TOUCH</strong></p>
+                        <div id="header_borderbottom"> </div>
+                        <ul class="footer2_row1">
+                            <li><a id="footer2_txt1" href="#">Line | @uncommonvolunteer</a></li>
+                            <li><a id="footer2_txt1" href="#">Phone | 089 909 4472</a></li>
+                            <li><a id="footer2_txt1" href="#">Monetization</a></li>
+                            <li><a id="footer2_txt1" href="#">E-Mail | contact@unco-op.co.th</a></li>
+                            <li><a id="footer2_txt1" href="#">Facebook | Uncommon Co-Op</a></li>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="comp-kstzhd3d" class="XUUsC _2S73V" title="">
+                        <a data-testid="linkElement"
+                            href="https://www.trustmarkthai.com/callbackData/popup.php?data=a1-17-5-4f6901027255dbc769924eb8a9fa6f23d9a047700f4&amp;markID=firstmar"
+                            target="_blank" rel="noopener" class="xQ_iF">
+                            <wix-image id="img_comp-kstzhd3d" class="_1-6YJ _1Fe8-"
+                                data-image-info="{&quot;containerId&quot;:&quot;comp-kstzhd3d&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:545,&quot;height&quot;:259,&quot;uri&quot;:&quot;58d396_18389bb096a649958e4c6e3dc6fa5273~mv2.png&quot;,&quot;name&quot;:&quot;DBD-Registered.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed=""
+                                data-has-ssr-src="" data-src="./img/footer1.jpg">
+                                <img src="./img/footer1.jpg" alt="DBD-Registered.png"
+                                    style="width:86px;height:41px;object-fit:cover;object-position:50% 50%">
+                            </wix-image>
+                        </a>
+                    </div>
+                    <p id="copyright">©2021 UNCOMMON VOLUNTEER <a style="color:whitesmoke; text-decoration: underline;"
+                            href="#">by Uncommon Co-Op
+                            Limited Partnership</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
