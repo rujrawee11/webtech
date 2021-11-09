@@ -26,6 +26,7 @@ nav {
     top:0;
     height: 75px;
     width:100%;
+    
     transition: opacity 0.5s ease-in-out;
     border-bottom: 0.6px solid rgba(255, 255, 255, 0.219);
     z-index:1;
@@ -367,10 +368,48 @@ li {
     box-shadow: 1px 2px 4px rgb(192, 192, 192);
     z-index: 120;
 }
-
+.box2_in {
+    background-color: #ff6a48;
+    position: relative;
+    color:white;
+    top:-40vh;
+    margin-left: -12%;
+    margin-right: 13%;
+    box-shadow: 1px 2px 4px rgb(192, 192, 192);
+    z-index: 120;
+    cursor: pointer;
+}
+.box2_in:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+.box_info {
+    background-color:#00cfcf;
+    padding:10px;
+    width:25vw;
+    border-radius: 10px;
+    font-size:0.8em;
+    font-weight: 600;
+    letter-spacing:2px;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left:-7vw;
+    top:4.5vh;
+    float:bottom;
+}
+.box_info:hover {
+    letter-spacing:3px;
+}
 .col-11 {
     margin-left: 18%;
     margin-top: -20%;
+}
+.col-5 {
+    margin-left: 68%;
+    margin-top: 0%;
+    position: absolute;
 }
 
 .box_in {
@@ -387,6 +426,10 @@ li {
 
 #text_card {
     font-size: 1em;
+}
+#text_card1 {
+    font-size: 12px;
+    color:white;
 }
 
 #card2 {
@@ -516,6 +559,58 @@ li {
     margin: 0 auto;
 }
 /* page info */
+#sec_1_info{
+    height:110vh;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.281)
+}
+.box_99 {
+    background-color: transparent;
+    width: 100%;
+    height:60%;
+    text-align: center;
+    color:white;
+    padding-top:0vh;
+}
+
+.clock {
+    transform: scale(0.2);
+    color:white;
+    left:6vw;
+    margin-top:-10vh;
+    position:absolute;
+}
+.hr1{
+    font-size:16px;
+    margin-top:12vh;
+    text-align: center;
+}
+.hr2{
+    font-size:22px;
+    top:12vh;
+    text-align: center;
+}
+.bg1_info {
+    background: -webkit-linear-gradient(rgba(49, 83, 199, 0.8), rgba(49, 83, 199, 60)), url("./img/bg9.jpg");
+    background: linear-gradient(rgba(49, 83, 199, 0.8), rgba(49, 83, 199, 60)), url("./img/bg9.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-color: rgba(0, 0, 255, 7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 25;
+}
+.bg1_img_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    position: relative;
+    overflow: hidden;
+}
 .bg1 {
     background: -webkit-linear-gradient(rgba(49, 83, 199, 0.8), rgba(49, 83, 199, 60)), url("./img/bg6.jpg");
     background: linear-gradient(rgba(49, 83, 199, 0.8), rgba(49, 83, 199, 60)), url("./img/bg6.jpg");
@@ -539,7 +634,24 @@ li {
     overflow: hidden;
 }
 #text1_sup{
-    font-size:45px;
+    font-size:50px;
+    font-weight:900;
+    line-height:1.1;
+    color: #fff;
+    margin: 0 0 20px 10px;
+    
+}
+#box_test {
+    background-color: transparent;
+    width:80vw;
+    height:70vh;
+    padding:20px;
+    top:30vh;
+    margin-left: 0%;
+    cursor: pointer;
+}
+#text1_sup1{
+    font-size:25px;
     font-weight:600;
     line-height:1.1;
     color: #fff;
@@ -547,8 +659,8 @@ li {
 }
 .line1 {
     margin: 30px auto;
-    height: 1vh;
-    width: 4vw;
+    height: 0.1vh;
+    width: 100%;
     position: relative;
     background-color: white;
 }
@@ -560,21 +672,24 @@ li {
 }
 /* box head */
 .group_box {
-    margin-top: 7%;
-    left:2%;
+    position:relative;
+    top: 15vh;
+    left:10%;
     transform:scale(0.8);
 }
+
 .box1_sup {
     background-color: #143bba;
     padding: 15px;
     padding-bottom: 25px;
     width: 8vw;
     height: 1vh;
-    margin-top: -8%;
+    margin-top: 2%;
     margin-bottom: 5%;
-    margin-left: -35%;
+    margin-left: -5vw;
     border-radius: 10px;
     z-index: 20;
+    position:absolute;
 }
 .box1_sup:hover{
     background-color: #424345;
@@ -593,11 +708,12 @@ li {
     padding-bottom: 25px;
     width: 8vw;
     height: 1vh;
-    margin-top: -9.5%;
+    margin-top: 2%;
     margin-bottom: 5%;
-    margin-left: -13%;
+    margin-left: 6vw;
     border-radius: 10px;
     z-index: 20;
+    position:absolute;
 }
 .box2_sup:hover{
 
@@ -614,15 +730,15 @@ li {
 }
 .box3_sup {
     background-color: #ff6a48;
-    padding: 25px;
-    padding-bottom: 25px;
+    padding: 23px;
     width: 15vw;
     height: 1.5vh;
-    margin-top: -10%;
+    margin-top: 2%;
     margin-bottom: 5%;
-    margin-left: 2%;
+    margin-left: 14.5vw;
     border-radius: 10px;
     z-index: 20;
+    position:absolute;
 }
 .box3_sup:hover{
 
@@ -643,11 +759,12 @@ li {
     padding-bottom: 25px;
     width: 12vw;
     height: 1vh;
-    margin-top: -10%;
+    margin-top: 2%;
     margin-bottom: 5%;
-    margin-left: 29%;
+    margin-left: 30vw;
     border-radius: 10px;
     z-index: 20;
+    position:absolute;
 }
 .box4_sup:hover{
     background-color: #424345;
@@ -667,11 +784,12 @@ li {
     padding-bottom: 25px;
     width: 12vw;
     height: 1vh;
-    margin-top: -9.8%;
+    margin-top: 2%;
     margin-bottom: 5%;
-    margin-left: 51%;
+    margin-left: 42.5vw;
     border-radius: 10px;
     z-index: 20;
+    position:absolute;
 }
 .box5_sup:hover{
     background-color: #424345;
@@ -687,15 +805,16 @@ li {
 }
 .box6_sup {
     background-color: #00cfcf;
-    padding: 25px;
+    padding: 20px;
     padding-bottom: 25px;
     width: 11vw;
     height: 1.5vh;
-    margin-top: -10%;
+    margin-top: 1%;
     margin-bottom: 5%;
-    margin-left: 73%;
+    margin-left: 55vw;
     border-radius: 10px;
     z-index: 20;
+    position:absolute;
 }
 .box6_sup:hover{
     background-color: #424345;
@@ -716,11 +835,12 @@ li {
     padding-bottom: 25px;
     width: 18vw;
     height: 1.5vh;
-    margin-top: -10.5%;
+    margin-top: 2%;
     margin-bottom: 5%;
-    margin-left: 93%;
+    margin-left:66.5vw;
     border-radius: 10px;
     z-index: 20;
+    position:absolute;
 }
 .box7_sup:hover{
     background-color: #424345;
@@ -814,9 +934,23 @@ li {
 #head_s3{
     text-align: center;
     margin-top: 5%;
-    font-weight: 900;
-    font-size:5em;
-    color: rgb(15, 109, 185);
+    font-weight: 600;
+    font-size:4em;
+    color: #0d277c;
+}
+#head_s31{
+    text-align: center;
+    
+    font-weight: 600;
+    font-size:1.8em;
+    color: #0d277c;
+}
+#head_s32{
+    text-align: center;
+    
+    font-weight: 600;
+    font-size:1.6em;
+    color: #0d277c;
 }
 #step1{
     text-align: center;
@@ -910,36 +1044,70 @@ li {
     margin-top: 3%;
     margin-left: 45%;
     padding-top:10px;
+    padding-left:20px;
     padding-bottom: 30px;
-    font-size:1.3em;
+    font-size:1.1em;
     color: white;
-    text-align:center;
+    text-align:left;
     background-color:#ff6a48;
     width: 20vw;
     height: 4vh;
     border-radius: 13px;
 }
 #btn_stp1:hover{
-    background-color: #0d277c;
+    font-size:1.1em;
+    background-color: #da573a;
+    letter-spacing:3px;
+    border: 0;
+    color:white;
 }
 #btn2_stp1{
     margin-top: 1%;
     margin-left: 45%;
     padding-top:10px;
+    padding-left:20px;
     padding-bottom: 30px;
-    font-size:1.3em;
-    color: #ff6a48;
-    text-align:center;
-    background-color:white;
-    border: 2px solid #ff6a48;
+    font-size:1.1em;
+    color: #ffffff;
+    text-align:left;
+    background-color:#00cfcf;
+    border: 0;
     width: 20vw;
     height: 4vh;
     border-radius: 13px;
 }
 #btn2_stp1:hover{
-    background-color: #0d277c;
+    font-size:1.1em;
+    background-color: #099c9c;
+    letter-spacing:3px;
     border: 0;
     color:white;
+}
+#btn3_stp1{
+    margin-top: 1%;
+    margin-left: 45%;
+    padding-top:10px;
+    padding-left:20px;
+    padding-bottom: 30px;
+    font-size:1.1em;
+    color: rgb(34, 34, 34);
+    text-align:left;
+    background-color:#ffffff; 
+    border: 1px solid #00cfcf;
+    width: 20vw;
+    height: 4vh;
+    border-radius: 13px;
+}
+#btn3_stp1:hover{
+    font-size:1.1em;
+    letter-spacing:3px;
+    background-color: white;
+    border: 2px solid #00cfcf;
+}
+#ar_{
+    float:right;
+    transform:scale(1);
+    margin-right: 2vw;
 }
 /*sent task */
 #sec2_3{
@@ -1742,6 +1910,11 @@ div.card-p3 {
     font-weight: 600;
     font-size: 1.5em;
     margin-bottom: 5vh;
+}
+.txt_head1 {
+    font-weight: 600;
+    font-size: 18px;
+
 }
 .bg_certi{
     background: -webkit-linear-gradient(rgba(49, 83, 199, 0.8), rgba(49, 83, 199, 60)), url("./img/bg8.jpg");
