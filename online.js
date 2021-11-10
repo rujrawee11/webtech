@@ -31,7 +31,7 @@ function add() {
 
     var div3 =document.createElement('div');
     div3.setAttribute("class","col-4 h-80");
-    div3.setAttribute("style","border-top-left-radius: 20px; border-bottom-left-radius: 20px; background-image: url(bag.webp); background-repeat: no-repeat; background-size: 100%; height: 100%;")
+    div3.setAttribute("style","border-top-left-radius: 20px; border-bottom-left-radius: 20px; background-image: url(bag.jpg); background-repeat: no-repeat; background-size: 100%; height: 100%;")
     div2.appendChild(div3);
 
     var div4 = document.createElement('div');
@@ -98,7 +98,7 @@ c2div1.appendChild(c2div2);
 
 var c2div3 =document.createElement('div');
 c2div3.setAttribute("class","col-4 h-80");
-c2div3.setAttribute("style","border-top-left-radius: 20px; border-bottom-left-radius: 20px; background-image: url(system.webp); background-repeat: no-repeat; background-size: 100%; height: 100%;")
+c2div3.setAttribute("style","border-top-left-radius: 20px; border-bottom-left-radius: 20px; background-image: url(system.jpg); background-repeat: no-repeat; background-size: 100%; height: 100%;")
 c2div2.appendChild(c2div3);
 
 var c2div4 = document.createElement('div');

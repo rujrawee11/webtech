@@ -85,7 +85,7 @@ function moredone() {
 
     var img1 = document.createElement("img")
     img1.setAttribute("class","card-img-top")
-    img1.setAttribute("src","kidsbook.webp")
+    img1.setAttribute("src","kidsbook.jpg")
     img1.setAttribute("alt","Card image cap")
     img1.setAttribute("style","border-top-left-radius: 20px; border-top-right-radius: 20px;")
     cardadd1.appendChild(img1)
@@ -131,7 +131,7 @@ function moredone() {
 
     var img2 = document.createElement("img")
     img2.setAttribute("class","card-img-top")
-    img2.setAttribute("src","orangewoman.webp")
+    img2.setAttribute("src","orangewoman.jpg")
     img2.setAttribute("alt","Card image cap")
     img2.setAttribute("style","border-top-left-radius: 20px; border-top-right-radius: 20px;")
     cardadd2.appendChild(img2)
@@ -177,7 +177,7 @@ function moredone() {
 
     var img3 = document.createElement("img")
     img3.setAttribute("class","card-img-top")
-    img3.setAttribute("src","colorbook.webp")
+    img3.setAttribute("src","colorbook.jpg")
     img3.setAttribute("alt","Card image cap")
     img3.setAttribute("style","border-top-left-radius: 20px; border-top-right-radius: 20px;")
     cardadd3.appendChild(img3)
@@ -223,7 +223,7 @@ function moredone() {
 
     var img4 = document.createElement("img")
     img4.setAttribute("class","card-img-top")
-    img4.setAttribute("src","2people.webp")
+    img4.setAttribute("src","2people.jpg")
     img4.setAttribute("alt","Card image cap")
     img4.setAttribute("style","border-top-left-radius: 20px; border-top-right-radius: 20px;")
     cardadd4.appendChild(img4)
@@ -270,7 +270,7 @@ function moredone() {
 
     var img5 = document.createElement("img")
     img5.setAttribute("class","card-img-top")
-    img5.setAttribute("src","manybook.webp")
+    img5.setAttribute("src","manybook.jpg")
     img5.setAttribute("alt","Card image cap")
     img5.setAttribute("style","border-top-left-radius: 20px; border-top-right-radius: 20px;")
     cardadd5.appendChild(img5)
@@ -316,7 +316,7 @@ function moredone() {
 
     var img6 = document.createElement("img")
     img6.setAttribute("class","card-img-top")
-    img6.setAttribute("src","manypeople.webp")
+    img6.setAttribute("src","manypeople.jpg")
     img6.setAttribute("alt","Card image cap")
     img6.setAttribute("style","border-top-left-radius: 20px; border-top-right-radius: 20px;")
     cardadd6.appendChild(img6)
@@ -362,7 +362,7 @@ function moredone() {
 
     var img7 = document.createElement("img")
     img7.setAttribute("class","card-img-top")
-    img7.setAttribute("src","school.webp")
+    img7.setAttribute("src","school.jpg")
     img7.setAttribute("alt","Card image cap")
     img7.setAttribute("style","border-top-left-radius: 20px; border-top-right-radius: 20px;")
     cardadd7.appendChild(img7)
@@ -408,7 +408,7 @@ function moredone() {
 
     var img8 = document.createElement("img")
     img8.setAttribute("class","card-img-top")
-    img8.setAttribute("src","bluebook.webp")
+    img8.setAttribute("src","bluebook.jpg")
     img8.setAttribute("alt","Card image cap")
     img8.setAttribute("style","border-top-left-radius: 20px; border-top-right-radius: 20px;")
     cardadd8.appendChild(img8)
@@ -471,7 +471,7 @@ function again() {
 
     var img8 = document.createElement("img")
     img8.setAttribute("class","card-img-top")
-    img8.setAttribute("src","welcome.webp")
+    img8.setAttribute("src","welcome.jpg")
     img8.setAttribute("alt","Card image cap")
     img8.setAttribute("style","border-top-left-radius: 20px; border-top-right-radius: 20px;")
     cardadd8.appendChild(img8)
