@@ -228,22 +228,52 @@
         
         #cardcolele:hover,
         #cardcolele:focus,
-        #cardcolele:active {
+        #cardcolele:active{
             -webkit-transform: scale(1.1);
             transform: scale(1.1);
         }
-        
+
+        #cardcoleleprob:hover,
+        #cardcoleleprob:focus,
+        #cardcoleleprob:active{
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
         #cardcolele:hover .colorpic,
         #cardcolele:focus .colorpic,
-        #cardcolele:active .colorpic {
+        #cardcolele:active .colorpic{
             transform: translateX(15%);
         }
-        
+
+        #cardcoleleprob:hover .colorpicprob,
+        #cardcoleleprob:focus .colorpicprob,
+        #cardcoleleprob:active .colorpicprob{
+            transform: translateX(14%);
+        }
+
+
+        #piccardcolprob:hover {
+            opacity: .6;
+            /*transform: translateX(10px);/*100%*/
+        }
+
+
+        .colorpicprob {
+            background-color: #00ff;
+            border-radius: 10px;
+            width: 80%;
+            height: 80%;
+            margin-left: 0%;
+            margin-top: 4%;
+        }
+
         #piccardcol:hover {
             opacity: .6;
             /*transform: translateX(10px);/*100%*/
         }
-        
+
+
         .colorpic {
             background-color: #00ff;
             border-radius: 10px;
@@ -657,20 +687,27 @@
                                     </div>
                                 </div>
 
-                                <div class="card m-4 col-11" id="cardcolele">
-                                    <div class="colorpic">
+                                <div class="card m-4 col-11" id="cardcoleleprob">
+                                    <div class="colorpicprob">
                                         <a href="#">
-                                            <img class="card-img-top" id="piccardcol" src="pc.jpg" alt="Card image cap" style="border-radius: 10px; width: 99.2%; height: 100%; margin-left: 0%; margin-top: 0%;">
+                                        <img class="card-img-top" id="piccardcolprob"
+                                            src="pc.jpg"
+                                            alt="Card image cap"
+                                            style="border-radius: 10px; width: 99%; height: 100%; margin-left: 0%; margin-top: 0%;">
                                         </a>
-                                    </div>
+                                        </div>
                                     <div class="card-body text-left">
                                         <h2 class="card-title" id="cardtitleblack">
                                             <b>ประชาสัมพันธ์กิจกรรมออนไลน์</b>
                                         </h2>
 
-                                        <p class="card-text pr-5">ใช้โทรศัพท์ ฯ เท่านั้นก็สามารถเข้าร่วมกิจกรรมนี้ได้แล้ว สามารถเข้าร่วมได้ไม่จำกัดครั้ง</p>
-                                        <div class="d-flex justify-content-end h-10" style="position: absolute; left: 85%; top: 70%;">
-                                            <a href="#" class="btn ml-auto p-2" id="btncard1blue"><br><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <p class="card-text pr-5">ใช้โทรศัพท์ ฯ
+                                            เท่านั้นก็สามารถเข้าร่วมกิจกรรมนี้ได้แล้ว สามารถเข้าร่วมได้ไม่จำกัดครั้ง</p>
+                                        <div class="d-flex justify-content-end h-10"
+                                            style="position: absolute; left: 85%; top: 70%;">
+                                            <a href="#" class="btn ml-auto p-2" id="btncard1blue"><br><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                                     <path fill-rule="evenodd"
                                                         d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                                 </svg>
