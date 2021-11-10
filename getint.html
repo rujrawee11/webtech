@@ -13,7 +13,71 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="icon" sizes="192x192" href="./img/logo-title.png">
+    <link rel="shortcut icon" href="./img/logo-title.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./img/logo-title.png" type="image/png" />
 <style>
+    .dropdown {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .drop_head {
+            padding-top: 1.5vh;
+            color: whitesmoke;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            font-size: 1em;
+            margin-top: 0%;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(36, 56, 145, 0.5);
+            padding: 10px;
+            text-align: center;
+            width: 13vw;
+            margin-top: 1vh;
+            margin-left: -4vw;
+            border-radius: 10px;
+            line-height: 10px;
+            color: white;
+        }
+        
+        .drop_head a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            background-color: transparent;
+        }
+        
+        .dropdown-content a {
+            font-size: 14px;
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            color: white;
+            background-color: transparent;
+        }
+        
+        .dropdown-content:hover {
+            color: white;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            color: white;
+            display: block;
+        }
+        
+        .dropdown:hover .dropbtn {
+            color: white;
+            background-color: #254dcf;
+        }
     /* section page7*/
 .bg-help {
     background-color:#254dcf;
@@ -136,53 +200,75 @@ div.card-con {
     <section id="page7" >
         <nav class="nav navbar-fixed-top" id="topbar">
             <div class="container-fluid">
-                <span class="navbar-header">
+                <a class="navbar-brand nav_head" id="nav_head" href="#">
+                    <img src="./img/LOGO-VOLUNTEER-WHITE.png" width="110" style="top:0%; left:5%; position:absolute;"></a>
+    
+                <div class="nav nav_s" style=" float:right;margin-left: 0;">
+                    <li><a id="nav_li2" href="./modmu.html">อาสาออนไลน์</a></li>
+                    <li><a id="nav_li3" href="./modmu.html">อาสาลงพื้นที่</a></li>
+                    <li><a id="nav_li4" href="./suggest-activity.html">ลง/จัดกิจกรรม</a></li>
+                    <li><a id="nav_li5" href="#">Log In
+                            <svg id="profile" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                            </svg>
+    
+                        </a></li>
                     <div class="dropdown">
-                        <button class="dropbtn">
-                            <svg id="point" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        <button class="btn" type="button" id="nav_li6" style="height:40px;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    
+                            <svg id="emoji" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                 fill="currentColor" class="bi bi-chevron-down" viewBox="-5 5 20 20">
                                 <path fill-rule="evenodd"
                                     d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                             </svg>
-                            <img id="thai"
-                                src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/round/THA.png">
+                            <img id="thai" src="./img/thai.png">
+    
                         </button>
-                        <div class="dropdown-content">
-                            <img id="english"
-                                src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/round/USA.png">
+    
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: #1f3fab; z-index:100; position:absolute; ">
+                            <button type="button" style="background-color: #1f3fab; z-index:100;" class="dropdown-item" href="#"><img id="english" src="./img/eng.png"></button>
+    
                         </div>
                     </div>
-                </span>
-                <div class="navbar-header" id="pointer">
-                    <a href="https://www.uncommonunique.com/donate" class="navbar-brand nav_head" id="box_profile"
-                        style="color:white; font-size: medium; display: flex; justify-content: center;
-                    align-items: center;">Log in &nbsp;
-
-                        <svg id="profile" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-person-circle" viewBox="0 0 16 16">
-                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                            <path fill-rule="evenodd"
-                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-                        </svg>
-                    </a>
                 </div>
-                <div class="navbar-header">
-                    <a class="navbar-brand nav_head" id="nav_head" href="#">UNCOMMON <br>VOLUNTEER</a>
-                </div>
-                <ul class="nav nav_s" style=" float:right;margin-left: 0;">
-                    <li><a id="nav_li" href="#">หน้าหลัก</a></li>
-                    <li><a id="nav_li" href="#">งานอาสา</a></li>
-                    <li><a id="nav_li" href="#">บทความ</a></li>
-                    <li><a id="nav_li" href="#">ช่วยเหลือ</a></li>
-                    <li><a id="nav_li" href="#">บริจาค</a></li>
-                    <li><a id="nav_li" href="#">เกี่ยวกับ</a></li>
-                    <!-- <li><img src="https://static.wixstatic.com/media/704cfc2f685d443987865b534ff6439e.jpg/v1/fill/w_640,h_500,fp_0.44_0.32,q_80,usm_0.66_1.00_0.01/704cfc2f685d443987865b534ff6439e.webp" id="img-b" class="ig" onclick="ig()"></img> -->
-                    <li> <i class="glyphicon glyphicon-search"></i><input type="text" id="search"
-                            placeholder="&nbsp;&nbsp;Search.."></li>
-                    </li>
+    
+    
+                <ul class="nav nav_b" style=" float:right; margin-left: 55%; cursor: pointer; ">
+                    <li><a id="nav_li" href="./firstpage.html">หน้าหลัก</a></li>
+                    <li><a id="nav_li" href="./certi.html">รับรอง/เกียรติบัตร</a></li>
+                    <div class="dropdown">
+                        <li class="drop_head"><a id="nav_li" href="./help.html" style="font-size:1em;">ช่วยเหลือ</a></li>
+                        <div class="dropdown-content">
+                            <a href="./boon.html">สนับสนุนทางการศึกษา</a>
+                            <a href="./coop.html">สำหรับองค์กร/หน่วยงาน</a>
+                            <a href="#">ถาม-ตอบ</a>
+                            <a href="./getint.html">ติดต่อ/ช่วยเหลือ</a>
+    
+                        </div>
+                    </div>
+                    <li><a id="nav_li" href="./boon.html">ทุนการศึกษา</a></li>
+                    <li><a id="nav_li" href="./donate.html">บริจาค</a></li>
+                    <li><a id="nav_li" href="./blog.html">บทความ</a></li>
+                    <div class="dropdown">
+                        <li class="drop_head"><a id="nav_li" href="./about.html">เกี่ยวกับ</a></li>
+                        <div class="dropdown-content" style="width:21vw; margin-left: -13vw;">
+                            <a href="#">UNCOMMON CO-OP</a>
+                            <a href="#">แผนโครงการเพื่อสังคม</a>
+                            <a href="#">PDPA and Personal Information Security</a>
+                            <a href="./getint.html">ติดต่อเรา</a>
+    
+                        </div>
+                    </div>
+    
+                    <!-- <li><img src="ig.png" class="ig" onclick="ig()"></img> -->
+    
                 </ul>
+    
             </div>
-
+    
         </nav>
 
             <div class="text-3" id="ParallaxContent" style="text-align-last: center;">
