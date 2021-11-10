@@ -517,8 +517,8 @@ li {
 }
 
 .bg0 {
-    background: -webkit-linear-gradient(rgba(49, 83, 199, 0.8), rgba(49, 83, 199, 60)), url("pine.webp");
-    background: linear-gradient(rgba(49, 83, 199, 0.8), rgba(49, 83, 199, 60)), url("pine.webp");
+    background: -webkit-linear-gradient(rgba(49, 83, 199, 0.8), rgba(49, 83, 199, 60)), url("pine.jpg");
+    background: linear-gradient(rgba(49, 83, 199, 0.8), rgba(49, 83, 199, 60)), url("pine.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
