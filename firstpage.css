@@ -371,7 +371,7 @@ li {
 /* section */
 
 #page4 {
-    height: 275vh;
+    height: 300vh;
     overflow: hidden;
 }
 
@@ -1498,4 +1498,83 @@ li {
     text-align: center;
     display: inline-block;
     padding-top: 4%;
+}
+/* before port */
+#cer_{
+    height:110vh;
+    width:100vw;
+    position:relative;
+    background-color: rgba(224, 221, 221, 0.493);
+}
+#box1_{
+    color:white;
+    font-size: 2em;
+    font-weight: 600;
+    background-color:#00cfcf;
+    padding:10px;
+    border-radius: 10px;
+    width:20vw;
+}
+#box1_1{
+    color:white;
+    font-size: 1.3em;
+    font-weight: 400;
+    background-color:#00abab;
+    padding:10px;
+    border-radius: 10px;
+    margin-top:2vh;
+    cursor: pointer;
+    width:20vw;
+}
+#box1_1:hover{
+    background-color:#146363;
+    letter-spacing:2px;
+}
+#box2_{
+    color:white;
+    font-size: 2em;
+    font-weight: 600;
+    background-color:#254dcf;
+    padding:10px;
+    border-radius: 10px;
+    width:20vw;
+}
+#box2_1{
+    color:white;
+    font-size: 1.3em;
+    font-weight: 400;
+    background-color:#1f3fab;
+    padding:10px;
+    border-radius: 10px;
+    margin-top:2vh;
+    cursor: pointer;
+    width:20vw;
+}
+#box2_1:hover{
+    background-color:#273975;
+    letter-spacing:2px;
+}
+#box3_{
+    color:white;
+    font-size: 2em;
+    font-weight: 600;
+    background-color:#254dcf;
+    padding:10px;
+    border-radius: 10px;
+    width:20vw;
+}
+#box3_1{
+    color:white;
+    font-size: 1.3em;
+    font-weight: 400;
+    background-color:#1f3fab;
+    padding:10px;
+    border-radius: 10px;
+    margin-top:2vh;
+    cursor: pointer;
+    width:20vw;
+}
+#box3_1:hover{
+    background-color:#273975;
+    letter-spacing:2px;
 }
