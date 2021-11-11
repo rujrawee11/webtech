@@ -840,14 +840,19 @@
     }
     
     #bttt3 {
-        width: 100%;
+        width: 18vw;
+        height: 8vh;
+        width: 18vw;
+        height: 8vh;
         padding: 2%;
         background-color: #254dcf;
         border: none;
         border-radius: 10px;
         text-align: left;
-        color: white;
-        word-spacing: 0px;
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 0.75em;
+        margin-left: 2vw;
     }
     /* #bttt3:hover bt1{
         word-spacing: 50px;
@@ -856,6 +861,56 @@
     
     #bttt3:hover {
         background-color: #1f3fab;
-        word-spacing: 5px;
+        letter-spacing: 2px;
         border: none;
+        transition: 0.3s;
+    }
+    
+    #chat {
+        position: absolute;
+        right: 20%;
+        transform: scale(2);
+        margin-top: 1%;
+    }
+    
+    #foot_help {
+        position: fixed;
+        bottom: 2vh;
+        right: 1vw;
+        width: 18vw;
+        height: 8vh;
+        background-color: #ff6a48;
+        border: none;
+        border-radius: 10px;
+        text-align: left;
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 1.5em;
+        margin-left: 2vw;
+        padding-left: 1%;
+        z-index: 100;
+    }
+    
+    #foot_help:hover {
+        background-color: #ff6a48;
+        letter-spacing: 2px;
+        border: none;
+        transition: 0.3s;
+        z-index: 100;
+    }
+    
+    #chat1 {
+        position: absolute;
+        right: 9%;
+        transform: scale(2);
+        margin-top: 2%;
+    }
+    
+    #ff {
+        position: fixed;
+        height: 6%;
+        width: 3vw;
+        bottom: 2vh;
+        left: 1%;
+        z-index: 100;
     }
