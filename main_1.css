@@ -372,7 +372,7 @@ li {
     background-color: #ff6a48;
     position: relative;
     color:white;
-    top:-40vh;
+    top:-35vh;
     margin-left: -12%;
     margin-right: 13%;
     box-shadow: 1px 2px 4px rgb(192, 192, 192);
@@ -423,7 +423,63 @@ li {
     font-size: 14px;
     letter-spacing: 2pt;
 }
+#form_{
+    height:70vh;
+    position: relative;
+}
+#box_form{
+    width:60%;
+    height:50vh;
+    top:15%;
+    border-radius: 20px;
+    background-color: #254dcf;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding:30px;
+}
+.form-check-input{
+    transform: scale(1.5);
+    top: 0.5vh;
 
+}
+#exampleFormControlTextarea1{
+    width:50vw;
+    margin-left: 6%;
+    position: absolute;
+    background-color:transparent;
+    border: 5px soild white;
+    border-radius: 20px;
+    
+}
+#btn_f{
+    background-color: #ff6a48;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    width:11vw;
+    font-size: 16px;
+    font-weight: 400;
+    float:left;
+    cursor:pointer;
+    margin-top: 17%;
+    margin-left: 70%;
+}
+#btn_f:hover {
+    letter-spacing:3px;
+    background-color: #da5334;
+}
+#svg_f{
+    float:right;
+    margin-top:3%;
+    position:relative;
+}
+#txt_f{
+    font-size:16px;
+    color:white;
+    font-weight: 300;
+    margin-left: 20%;
+}
 #text_card {
     font-size: 1em;
 }
@@ -646,7 +702,7 @@ li {
     width:80vw;
     height:70vh;
     padding:20px;
-    top:30vh;
+    top:50vh;
     margin-left: 0%;
     cursor: pointer;
 }
@@ -673,7 +729,7 @@ li {
 /* box head */
 .group_box {
     position:relative;
-    top: 15vh;
+    top:40vh;
     left:10%;
     transform:scale(0.8);
 }
