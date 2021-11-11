@@ -1454,6 +1454,7 @@ li {
 
 #sumsvg3:hover {
     word-spacing: -3px;
+    text-decoration: none;
     background-color: #07143e;
 }
 
