@@ -56,7 +56,7 @@ function processmore() {
     var a = document.createElement("a")
     textright.appendChild(a)
     a.setAttribute("class","text-secondary")
-    a.setAttribute("href","info.html")
+    //a.setAttribute("href","")
     a.setAttribute("id","inform")
 
     var texta = document.createTextNode("รายละเอียด →")
