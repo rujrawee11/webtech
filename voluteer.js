@@ -68,6 +68,7 @@ function processmore() {
     more.setAttribute("onclick","");
     more.setAttribute("style","color:rgb(170, 170, 170); width:30%; border-radius:5px; background-color:rgb(210, 210, 210);")
     more.setAttribute("class",("btn"))
+    more.setAttribute("id","processmorefin")
 //----------------------------------------------//
 //var page4 = document.getElementById('page4')
 //page4.setAttribute("style","height: 530vh; overflow: hidden;")
@@ -452,6 +453,7 @@ function moredone() {
     //--------------------------------------------//
     var moredone = document.getElementById("moredone");
     moredone.setAttribute("onclick","again()");
+    moredone.setAttribute("id","moredone")
 
     setpage2()
 }
@@ -513,6 +515,8 @@ function again() {
     more.setAttribute("onclick","");
     more.setAttribute("style","color:rgb(170, 170, 170); width:30%; border-radius:5px; background-color:rgb(210, 210, 210);")
     more.setAttribute("class",("btn"))
+    more.setAttribute("id","moredonefin")
+    
 
     //-------------------------//
     //var page4 = document.getElementById('page4')
