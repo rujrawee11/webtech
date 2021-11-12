@@ -582,6 +582,14 @@ li {
     position: relative;
     overflow: hidden;
 }
+.bg_img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
 .txt_head {
     font-weight: 600;
     font-size: 1.5em;
