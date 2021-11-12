@@ -56,7 +56,7 @@ function processmore() {
     var a = document.createElement("a")
     textright.appendChild(a)
     a.setAttribute("class","text-secondary")
-    a.setAttribute("href","#")
+    //a.setAttribute("href","")
     a.setAttribute("id","inform")
 
     var texta = document.createTextNode("รายละเอียด →")
@@ -68,6 +68,7 @@ function processmore() {
     more.setAttribute("onclick","");
     more.setAttribute("style","color:rgb(170, 170, 170); width:30%; border-radius:5px; background-color:rgb(210, 210, 210);")
     more.setAttribute("class",("btn"))
+    more.setAttribute("id","processmorefin")
 //----------------------------------------------//
 //var page4 = document.getElementById('page4')
 //page4.setAttribute("style","height: 530vh; overflow: hidden;")
@@ -115,7 +116,7 @@ function moredone() {
     cardbody1.appendChild(more1)
     var a1 = document.createElement("a")
     more1.appendChild(a1)
-    a1.setAttribute("href","#")
+    //a1.setAttribute("href","#")
     a1.setAttribute("class","text-secondary")
     a1.setAttribute("id","inform")
 
@@ -161,7 +162,7 @@ function moredone() {
     cardbody2.appendChild(more2)
     var a2 = document.createElement("a")
     more2.appendChild(a2)
-    a2.setAttribute("href","#")
+    //a2.setAttribute("href","#")
     a2.setAttribute("class","text-secondary")
     a2.setAttribute("id","inform")
 
@@ -207,7 +208,7 @@ function moredone() {
     cardbody3.appendChild(more3)
     var a3 = document.createElement("a")
     more3.appendChild(a3)
-    a3.setAttribute("href","#")
+    //a3.setAttribute("href","#")
     a3.setAttribute("class","text-secondary")
     a3.setAttribute("id","inform")
 
@@ -253,7 +254,7 @@ function moredone() {
     cardbody4.appendChild(more4)
     var a4 = document.createElement("a")
     more4.appendChild(a4)
-    a4.setAttribute("href","#")
+    //a4.setAttribute("href","#")
     a4.setAttribute("class","text-secondary")
     a4.setAttribute("id","inform")
 
@@ -300,7 +301,7 @@ function moredone() {
     cardbody5.appendChild(more5)
     var a5 = document.createElement("a")
     more5.appendChild(a5)
-    a5.setAttribute("href","#")
+    //a5.setAttribute("href","#")
     a5.setAttribute("class","text-secondary")
     a5.setAttribute("id","inform")
 
@@ -346,7 +347,7 @@ function moredone() {
     cardbody6.appendChild(more6)
     var a6 = document.createElement("a")
     more6.appendChild(a6)
-    a6.setAttribute("href","#")
+    //a6.setAttribute("href","#")
     a6.setAttribute("class","text-secondary")
     a6.setAttribute("id","inform")
 
@@ -392,7 +393,7 @@ function moredone() {
     cardbody7.appendChild(more7)
     var a7 = document.createElement("a")
     more7.appendChild(a7)
-    a7.setAttribute("href","#")
+    //a7.setAttribute("href","#")
     a7.setAttribute("class","text-secondary")
     a7.setAttribute("id","inform")
 
@@ -438,7 +439,7 @@ function moredone() {
     cardbody8.appendChild(more8)
     var a8 = document.createElement("a")
     more8.appendChild(a8)
-    a8.setAttribute("href","#")
+    //a8.setAttribute("href","#")
     a8.setAttribute("class","text-secondary")
     a8.setAttribute("id","inform")
 
@@ -452,6 +453,7 @@ function moredone() {
     //--------------------------------------------//
     var moredone = document.getElementById("moredone");
     moredone.setAttribute("onclick","again()");
+    moredone.setAttribute("id","moredone")
 
     setpage2()
 }
@@ -501,7 +503,7 @@ function again() {
     cardbody8.appendChild(more8)
     var a8 = document.createElement("a")
     more8.appendChild(a8)
-    a8.setAttribute("href","#")
+    //a8.setAttribute("href","#")
     a8.setAttribute("class","text-secondary")
     a8.setAttribute("id","inform")
 
@@ -513,6 +515,8 @@ function again() {
     more.setAttribute("onclick","");
     more.setAttribute("style","color:rgb(170, 170, 170); width:30%; border-radius:5px; background-color:rgb(210, 210, 210);")
     more.setAttribute("class",("btn"))
+    more.setAttribute("id","moredonefin")
+    
 
     //-------------------------//
     //var page4 = document.getElementById('page4')

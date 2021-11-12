@@ -67,7 +67,7 @@ function add() {
     divcer.appendChild(hcer);*/
 
     var adiv5 = document.createElement("a");
-    adiv5.setAttribute("href","#");
+    adiv5.setAttribute("href","info.html");
     adiv5.setAttribute("class","text-secondary");
     adiv5.setAttribute("id","inform");
     var inform = document.createTextNode("ดูรายละเอียด →")
@@ -134,7 +134,7 @@ c2hcer.appendChild(c2textcer);
 c2divcer.appendChild(c2hcer);
 
 var c2adiv5 = document.createElement("a");
-c2adiv5.setAttribute("href","#");
+c2adiv5.setAttribute("href","info.html");
 c2adiv5.setAttribute("class","text-secondary");
 c2adiv5.setAttribute("id","inform");
 var c2inform = document.createTextNode("ดูรายละเอียด →")
