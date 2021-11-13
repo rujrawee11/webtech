@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>ช่วยเหลือ/คู่มือจิตอาสา | จิตอาสาออนไลน์</title>
+    <title>ช่วยเหลือ/ถาม-ตอบ | จิตอาสาออนไลน์</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/lib/w3.css">
-    <link rel="stylesheet" type="text/css" href="help.css">
+    <link rel="stylesheet" type="text/css" href="ques.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="icon" sizes="192x192" href="./img/logo-title.png">
@@ -1000,7 +1000,6 @@
 </head>
 
 <body>
-    <section id="page3">
     <nav class="nav navbar-fixed-top" id="topbar">
         <div class="container-fluid">
             <a class="navbar-brand nav_head" id="nav_head" href="#">
@@ -1073,127 +1072,82 @@
         </div>
 
     </nav>
+    <section id="pageques">
+            <div class="ques" style="background-color: #254dcf; height: 450px; text-align: center; padding-top: 150px;" >
+                <p style="font-size: 27px; color: white; font-weight: 800;" id="ques-title">ช่วยเหลือและสนับสนุน<p>
+                    <form class="box">
 
-        <div class="bg_img-help">
-            <div class="bg-help" id="ParallaxImage">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    
+                        <input id="input-title" type="text" placeholder="พิมพ์คำถามของคุณ...">
+                    
+                    </form>                     
+                <br><p id="ques-unbox" style="font-size: 15px; color: white;">เช่น วิธีการขอเกียรติบัตร การเข้าร่วมเป็นกลุ่ม ฯลฯ</p>
+                <button id=but-questitle>สอบถามทางอีเมล&nbsp;&nbsp;<span id="span-ques">&rarr;</span></button>
             </div>
-
-            <div class="text-3" id="ParallaxContent">
-                <p id="page3-p1">ศูนย์ให้ความ<b>ช่วยเหลือ</b></p><br>
-                        <form class="box">
-
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        
-                            <input id="input-title" type="text" placeholder="พิมพ์คำถามของคุณ...">
-                        
-                        </form>
-                        <p id="page3-p2">เช่น วิธีการขอเกียรติบัตร การเข้าร่วมเป็นกลุ่ม ฯลฯ</p>
+            <div class="ques-1" style=" height: 450px; border-bottom: 1px solid rgb(199, 197, 197); position: relative;">
+                <br><br><p style="font-size: 30px; color:  #0f297d; " id="ques-1-title" ><b>คำถามที่พบบ่อย</b><p>
+                <br><p id="ques-text-1" >การเข้าร่วมกิจกรรม</p>
+                <div class="ques-card1" style="width:500px; height:100px;">
+                    <div class="card-body" style="text-align: left;">
+                        <p style="font-size: 16px;">รหัสองค์กร</p>
+                        <a href="#" class="cta"><i id="icon" class="material-icons">arrow_forward</i></a>
+                    </div>
+                </div>
+                <button id=but-loadques>โหลดเพิ่มเติ่ม&nbsp;&nbsp;&rarr;</button>
             </div>
-        </div>
-        <div class="container" id="ParallaxContent" style="position: relative;">
-            <div class="card-p3" style="width:450px; height:200px;" id="card-p3-1">
-                <div class="card-body">
-                    <a id="card_text-p3" href="ques.html">
-                        <p style="font-weight: 1000; font-size: 25px;">ถาม-ตอบ</p>
-                    </a>
-                    <a id="card_text-p3" style="font-size: 15px; font-weight: 200;" href="help2.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ถามคำถาม หรือหาคำตอบ และวิธีการต่าง ๆ เพื่อดำเนิน<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การเข้าร่วมกิจกรรมหรือใช้เว็บไซต์อย่างมีประสิทธิภาพ</a><br>
-                    <a href="ques.html" class="cta-help"><i id="icon-help" class="material-icons">arrow_forward</i></a>
+            <div class="ques-2" style=" height: 500px; border-bottom: 1px solid rgb(199, 197, 197); position: relative;" id="allcard">
+                <br><br><br><p id="ques-text-2"> การรับรอง/เกียรติบัตร</p>
+                <div class="ques-card2-1" style="width:500px; height:100px;">
+                    <div class="card-body">
+                        <p style="font-size: 16px;">การดำเนินการขอชั่วโมงจิตอาสา</p>
+                        <a href="#" class="cta"><i id="icon" class="material-icons">arrow_forward</i></a>
+                    </div>
+                </div>
+                <div class="ques-card2-2" style="width:500px; height:100px;">
+                    <div class="card-body">
+                        <p style="font-size: 16px;">เงื่อนไขการขอรับรองชั่วโมงจิตอาสา   </p>
+                        <a href="#" class="cta"><i id="icon" class="material-icons">arrow_forward</i></a>
+                    </div>
+                </div>
+                <div class="ques-card2-3" style="width:500px; height:100px;">
+                    <div class="card-body">
+                       <p style="font-size: 16px;">การดำเนินการขอการรับรองหรือเกียรติบัตร รวม<br>ถึงการรับความช่วยเหลือ</p>
+                       <a href="#" class="cta"><i id="icon" class="material-icons">arrow_forward</i></a>
+                    </div>
+                </div>
+                <div class="ques-card2-4" style="width:500px; height:100px;">
+                    <div class="card-body">
+                       <p style="font-size: 16px;">ความแตกต่างของการรรับรองแต่ละประเภท</p>
+                       <a href="#" class="cta"><i id="icon" class="material-icons">arrow_forward</i></a>
+                    </div>
                 </div>
             </div>
-            <div class="card-p3" style="width:450px; height:200px;" id="card-p3-2">
-                <div class="card-body">
-                    <a id="card_text-p3" href="#">
-                        <p style="font-weight: 1000; font-size: 25px;">สำหรับองค์กร/หน่วยงาน</p>
-                    </a>
-                    <a id="card_text-p3" href="#"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ร่วมมือกับเรา ให้เราสนับสนุนองค์กร/โครงการของคุณ<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ติตต่อเราและประสานงานเพื่อการสนับสนุน</a><br>
-                    <a href="#" class="cta-help"><i id="icon-help" class="material-icons">arrow_forward</i></a>
-                </div>
+            <div class="d-flex align-items-center justify-content-center mt-5" style="height: 7vh; position: relative;" id="morebox">
+                <button id="but-loadques-active" onclick="add()">โหลดเพิ่มเติม&nbsp;&nbsp;&rarr;</button>
             </div>
-            <div class="card-p3" style="width:450px; height:200px;" id="card-p3-3">
-                <div class="card-body">
-                    <a id="card_text-p3" href="#">
-                        <p style="font-weight: 1000; font-size: 25px;">บริจาคและรับเกียรติบัตรฟรี</p>
-                    </a>
-                    <a id="card_text-p3" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รายการบริจาคต่าง ๆ ที่สามารถบริจาคได้ และรับเกียรติ<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;บัตรฟรีหลังบริจาคเสร็จสิ้น</a><br>
-                    <a href="#" class="cta-help"><i id="icon-help" class="material-icons">arrow_forward</i></a>
+            <div class="ques-3" style=" height: 350px;  border-bottom: 1px solid rgb(199, 197, 197); position: relative;" >
+                <br><br><br><p id="ques-text-3">การดำเนินการกิจกรรม</p>
+                <div class="ques-card3" style="width:500px; height:100px;">
+                    <div class="card-body">
+                        <p style="font-size: 16px;"></p>
+                        <a href="#" class="cta"><i id="icon" class="material-icons">arrow_forward</i></a>
+                    </div>
                 </div>
+                <button id=but-loadques-2>โหลดเพิ่มเติ่ม&nbsp;&nbsp;&rarr;</button>
             </div>
-            <div class="card-p3" style="width:450px; height:200px;" id="card-p3-4">
-                <div class="card-body">
-                    <a id="card_text-p3" href="#">
-                        <p style="font-weight: 1000; font-size: 25px;">ติดต่อ/สนับสนุน</p>
-                    </a>
-                    <a id="card_text-p3" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ข้อมูลการติดต่อต่าง ๆ รวมถึงการสนับสนุนและให้ความ<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ช่วยเหลือผู้ใช้งานเว็บไซต์ และอาสาสมัครทั่วไป</a><br>
-                    <a href="#" class="cta-help"><i id="icon-help" class="material-icons">arrow_forward</i></a>
+            <div class="ques-4" style="position: relative;" >
+                <br><br><br><p id="ques-text-4">เกี่ยวกับองค์กร</p>
+                <div class="ques-card4" style="width:500px; height:100px;">
+                    <div class="card-body">
+                        <p style="font-size:16;"></p>
+                        <a href="#" class="cta"><i id="icon" class="material-icons">arrow_forward</i></a>
+                    </div>
                 </div>
+                <button id=but-loadques-3>โหลดเพิ่มเติ่ม&nbsp;&nbsp;&rarr;</button>
             </div>
-        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <hr>
-        <div class="container mt-3" id="form-text">
-            <p style="font-size: 25px; font-weight: 1000; color:#0f297d;">ส่งข้อความถึงเรา หรือติดต่อสอบถาม</p>
-            <p>**เจ้าหน้าที่จะตอบกลับทางอีเมล ภายใน 24 ชม **</p>
-        </div>
-        <div class="container mt-3" id="form-help">
-            <div class="card" id="card-from">
-                <div class="card-body">
-                    <h4><b>หมวดหมู่ข้อความ</b></h4><br>
-                    <form id="form-main">
-                        <div class="row" id="row-form">
-                            <input type="radio" name="fav_language">
-                            <p>&nbsp;รายละเอียดกิจกรรม</p><br>   &nbsp;<input style="color: #254ac4;" type="radio" name="fav_language">
-                            <p>&nbsp;วิธีการเข้าร่วมกิจกรรม</p><br>   &nbsp;&nbsp;<input type="radio" name="fav_language">
-                            <p>&nbsp;การรับรอง/เกียรติบัตร</p>
-                            &nbsp;&nbsp;<input type="radio" name="fav_language">
-                            <p>&nbsp;ประสานงาน/ร่วมมือ</p>
-                            &nbsp;&nbsp;<input type="radio" name="fav_language">
-                            <p>&nbsp;อื่น ๆ</p>
-                        </div><br>
-                        <br>
-                        <hr><br>
-                        <div>
-                            <h4><b>ข้อความ/รายละเอียด <span style="color: black; font-size: 15px; font-weight: lighter;">(โปรดใส่ข้อมูลให้ละเอียด)</span></b></h4><br>
-                            <div class="card" style="border-radius: 10px;" id="carddd">
-                                <div class="card-header" style="background-color: rgba(255, 255, 255, 0); padding: 2%;">
-                                    <div class="row">
-                                        &nbsp;<i class="material-icons">format_bold</i>
-                                        &nbsp;<i class="material-icons">format_italic</i>
-                                        &nbsp;<i class="material-icons">format_underlined</i>
-                                        &nbsp;<i class="material-icons">text_fields</i>&nbsp;&verbar;
-                                        &nbsp;<i class="material-icons">format_align_left</i>
-                                        &nbsp;<i class="material-icons">format_list_numbered</i>
-                                        &nbsp;<i class="material-icons">format_list_bulleted</i>&nbsp;&verbar;
-                                        &nbsp;<i class="material-icons">link</i>
-                                    </div>
-                                    </div>
-                                    <div class="card-body"><textarea style=" border-color: rgba(255, 255, 255, 0); " class="no-outline" rows="5" id="comment" name="text" placeholder="Add Information Here"></textarea></div>
-                        </div>
-                        <br>
-                        <hr><br>
-                        <div class="row">
-                            <div class="col">
-                                <label for="email">อีเมล (โปรดระบุให้ถูกต้อง)</label><br>
-                                <input style="border-radius: 10px; padding: 25px; font-size: 15px; margin-top: 10px;" type="email" class="form-control" id="email" placeholder="E-mail Address" name="email">
-                            </div>
-                            <div class="col">
-                                <label for="pwd">เบอร์โทร หรือข้อมูลติดต่ออื่น ๆ (ถ้ามี) </label>
-                                <input style="border-radius: 10px; padding: 25px; font-size: 15px; margin-top: 10px;" type="password" class="form-control" id="pwd" placeholder="Contact Information" name="pswd">
-                            </div>
-                        </div>
-                        <br>
-                        <hr><br>
-                        <div class="mb-3">
-                            <label for="pwd">ชื่อ-นามสกุล</label>
-                            <input style="border-radius: 10px; padding: 25px; font-size: 15px; margin-top: 10px;" type="password" class="form-control" id="pwd" placeholder="Name" name="pswd">
-                        </div><br>
-                        <button id="but-help" style="border-radius: 10px; padding: 15px; width: 330px; height: 60px; text-align: left;"><span id="span1" style="font-size: 16px;">ส่งข้อความเลย</span>
-                            <span id="span2" style="font-size: 20px;">&rharu;</span></button><br><br>
-                        <button id="but-help-2" style="border-radius: 10px; padding: 10px; width: 330px; height: 40px; text-align: left;"><span id="span1">ฉันส่งข้อความไม่สำเร็จ</span>
-                            <span id="span2" style="font-size: 20px;">&rharu;</span></button>
-                    </form>
-                </div>
-
-            </div>
-        </div>
+        
+        
     </section>
     <footer>
 
@@ -1271,7 +1225,7 @@
     <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
     </svg></button>
     </footer>
-    <script src="script.js"></script>
+    <script src="ques.js"></script>
 </body>
 
 </html>
