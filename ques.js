@@ -46,9 +46,9 @@ function add() {
     div4.appendChild(idiv4);
     // 2
     var div12 = document.createElement('div');
-    div12.setAttribute("class","card");
-    div12.setAttribute("style","width:500px;", "height:100px;", "position:absolute;", "left:500px;");
-    allcard.insertBefore(div12, morebox);
+    div12.setAttribute("class","ques-card2-6");
+    div12.setAttribute("style","width:500px; height:100px; border-radius: 10px;");
+    allcard.appendChild(div12);
 
     var div22 = document.createElement('div');
     div22.setAttribute("class","card-body")
@@ -60,10 +60,82 @@ function add() {
     div22.appendChild(div32);
     div32.appendChild(p12);
 
+    var div42 = document.createElement('a');
+    div42.setAttribute("class","cta");
+    div22.appendChild(div4);
+
+    var idiv42 = document.createElement("i");
+    idiv42.setAttribute("class", "material-icons");
+    idiv42.setAttribute("id","icon");
+    var ic2 = document.createTextNode("arrow_forward");
+    idiv42.appendChild(ic2);
+    div42.appendChild(idiv42);
+
+    // 3
+    var div13 = document.createElement('div');
+    div13.setAttribute("class","ques-card2-7");
+    div13.setAttribute("style","width:500px; height:100px; border-radius: 10px;");
+    allcard.appendChild(div13);
+
+    var div23 = document.createElement('div');
+    div23.setAttribute("class","card-body")
+    div13.appendChild(div23);
+
+    var div33 =document.createElement('p');
+    div33.setAttribute("style","font-size: 16px;");
+    var p13 = document.createTextNode("ข้อแนะนำการขอการรับรองอย่างเหมาะสม");
+    div23.appendChild(div33);
+    div33.appendChild(p13);
+
+    var div43 = document.createElement('a');
+    div43.setAttribute("class","cta");
+    div23.appendChild(div43);
+
+    var idiv43 = document.createElement("i");
+    idiv43.setAttribute("class", "material-icons");
+    idiv43.setAttribute("id","icon");
+    var ic3 = document.createTextNode("arrow_forward");
+    idiv43.appendChild(ic3);
+    div43.appendChild(idiv43);
+    // 4
+    var div14 = document.createElement('div');
+    div14.setAttribute("class","ques-card2-8");
+    div14.setAttribute("style","width:500px; height:100px; border-radius: 10px;");
+    allcard.appendChild(div14);
+
+    var div24 = document.createElement('div');
+    div24.setAttribute("class","card-body")
+    div14.appendChild(div24);
+
+    var div34 =document.createElement('p');
+    div34.setAttribute("style","font-size: 16px;");
+    var p14 = document.createTextNode("การตรวจสอบการรับรองย้อนหลัง");
+    div24.appendChild(div34);
+    div34.appendChild(p14);
+
+    var div44 = document.createElement('a');
+    div44.setAttribute("class","cta");
+    div24.appendChild(div44);
+
+    var idiv44 = document.createElement("i");
+    idiv44.setAttribute("class", "material-icons");
+    idiv44.setAttribute("id","icon");
+    var ic4 = document.createTextNode("arrow_forward");
+    idiv42.appendChild(ic4);
+    div44.appendChild(idiv44);
+
     setpage3()
+    setpage4()
 }
 function setpage3() {
     var page4 = document.getElementById("allcard")
+    var height = page4.offsetHeight;
+    var newheight = height + 300
+    page4.style.height = newheight + 'px'
+}
+
+function setpage4() {
+    var page4 = document.getElementById("pageques")
     var height = page4.offsetHeight;
     var newheight = height + 300
     page4.style.height = newheight + 'px'

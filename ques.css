@@ -285,28 +285,66 @@ li {
 .ques-card2-5{
     position: absolute;
     left: 250px;
-    top: 1400px;
+    top: 1300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.ques-card2-6{
+    position: absolute;
+    right: 250px;
+    top: 1300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.ques-card2-7{
+    position: absolute;
+    left: 250px;
+    top: 1500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.ques-card2-8{
+    position: absolute;
+    right: 250px;
+    top: 1500px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .ques-card3{
     border-radius: 10px;
-    position: absolute;
-    right: 540px;
-    top: 1500px;
+    margin-left: 490px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.cta-card3,.cta-card4 {
+    background-color: black;
+    border-radius: 8px;
+    color: whitesmoke;
+    border: none;
+    font-size: 25px;
+    position: relative;
+    left: 60%;
+    top: 69%;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+#icon-card3,#icon-card4 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 3px;
+    color:white;
+    transform: translateX(8px);
+    transition: all .3s ease;
+}
+#icon-card3:hover, #icon-card4:hover{
+      transform: translateX(15px);
+      color: white;
 }
 .ques-card4{
     border-radius: 10px;
-    position: absolute;
-    right: 540px;
-    top: 1880px;
+    margin-left: 490px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 #ques-text{
     font-size: 20px;
-    color:  #0f297d;
-    position: absolute;
-    left: 250px;
+    color:  #0f297d; 
+    margin-left: 250px;
 }
 #but-ques{
     background-color: black;
@@ -322,6 +360,7 @@ li {
     top: 40%;
     text-align: center;
 }
+
 .cta {
     background-color: black;
     width: 60px;
@@ -368,9 +407,7 @@ li {
     font-size: 18px;
     background-color: rgb(225, 223, 223);
     color: grey;
-    position: absolute;
-    top:1650px;
-    left: 580px;
+    margin-left: 400px;
 }
 #but-loadques-3{
     width: 350px;
@@ -380,9 +417,7 @@ li {
     font-size: 18px;
     background-color: rgb(225, 223, 223);
     color: grey;
-    position: absolute;
-    top: 2030px;
-    left: 580px;
+    margin-left: 500px;
 }
 #but-questitle{
     width: 330px;
@@ -411,9 +446,8 @@ li {
     font-size: 18px;
     background-color: #ff6a48;
     color: white;
-    position: absolute;
-    top: 1290px;
-    left: 580px;
+    margin-left: 500px;
+    margin-top: -190px;
 }
 #but-loadques-active:hover{
     background-color:  #254ac4;
