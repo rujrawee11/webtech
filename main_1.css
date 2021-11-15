@@ -897,7 +897,7 @@ li {
     padding: 20px;
     padding-left: 5px;
     padding-bottom: 25px;
-    width: 18vw;
+    width: 19vw;
     height: 1.5vh;
     margin-top: 2%;
     margin-bottom: 5%;
@@ -909,7 +909,8 @@ li {
 .box7_sup:hover{
     background-color: #424345;
     cursor: pointer;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    font-size:16px;
     transition: 0.2s ease-in-out;
 }
 #point7_sup{
